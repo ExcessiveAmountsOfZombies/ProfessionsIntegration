@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "bozoid",
+  "id": "professionsi",
   "version": "${version}",
-  "name": "BOZOID",
-  "description": "",
+  "name": "Professions Integrations",
+  "description": "Integrate Professions with as many mods as possible.",
   "authors": [
     "Thonk"
   ],
@@ -17,22 +17,23 @@
   "icon": "assets/professions/icon.png",
   "environment": "*",
   "entrypoints": {
+    "fabric-datagen": [
+      "com.epherical.professionsi.IntegrationDataGenerator"
+    ],
     "main": [
-      "com.epherical.bozo.BozoFabric"
+      "com.epherical.professionsi.ProfessionsIntegrations"
     ]
   },
   "mixins": [
-    "bozoiD.mixins.json"
+    "professions_i.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "1.18.2"
+    "minecraft": "1.18.2",
+    "professions": ">=0.3.10"
   },
-  "custom": {
-    "waila:plugins": {
-      "id": "professions:prof_waila",
-      "initializer": "com.epherical.professions.integration.wthit.ProfWailaPlugin"
-    }
+  "suggests": {
+    "byg": "*"
   }
 }

@@ -1,4 +1,4 @@
-package com.epherical.bozo;
+package com.epherical.professionsi;
 
 import java.nio.file.Path;
 

@@ -1,0 +1,64 @@
+{
+  "function_type": "professions:append",
+  "to_edit_profession_key": "professions:crafting",
+  "actions": [
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 1.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.0
+        }
+      ],
+      "items": [
+        "byg:therium_glass"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 1.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.5
+        }
+      ],
+      "items": [
+        "byg:boric_lantern",
+        "byg:cryptic_lantern",
+        "byg:glowstone_lantern",
+        "byg:therium_lantern"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 5.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 5.0
+        }
+      ],
+      "items": [
+        "byg:hypogeal_imperium"
+      ]
+    }
+  ],
+  "unlocks": []
+}

@@ -19,6 +19,15 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+    maven {
+        name = 'Ladysnake Mods'
+        url = 'https://ladysnake.jfrog.io/artifactory/mods'
+    }
+
+    repositories {
+        maven { url "https://maven.bai.lol" }
+    }
+    mavenLocal()
 }
 
 configurations {
@@ -33,13 +42,25 @@ dependencies {
         parchment("org.parchmentmc.data:parchment-1.18.1:2021.12.19")
     }
     shade(rootProject)
-    shadow(rootProject)
+    compileOnly(rootProject)
 
     testCompileOnly('org.jetbrains:annotations:23.0.0')
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-
+    modImplementation ("com.epherical.professions:fabric:0.3.10-1.18.2")
+    modImplementation("com.epherical.professions:professions:0.3.10-1.18.2")
+    modImplementation 'me.lucko:fabric-permissions-api:0.2-SNAPSHOT'
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    // Integrations
+    // BYG
+    modImplementation "curse.maven:project-391378:3956526"
+    // TerraBlender
+    modImplementation "curse.maven:project-565956:3957975"
+    runtimeOnly("com.electronwill.night-config:toml:${nightconfig_version}")
+    runtimeOnly("com.electronwill.night-config:core:${nightconfig_version}")
+    // Croptopia
+    modImplementation "curse.maven:project-415438:3947781"
 }
 
 processResources {
@@ -74,7 +95,7 @@ loom {
 
             name "Data Generation"
             vmArg "-Dfabric-api.datagen"
-            vmArg "-Dfabric-api.datagen.modid=bozoid"
+            vmArg "-Dfabric-api.datagen.modid=professionsi"
             vmArg "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}"
 
             runDir "build/datagen"

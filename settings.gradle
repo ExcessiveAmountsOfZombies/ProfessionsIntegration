@@ -12,7 +12,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'FabForgeTemplate'
+rootProject.name = 'ProfessionsIntegration'
 
 include 'forge'
 include 'fabric'

@@ -1,0 +1,64 @@
+{
+  "function_type": "professions:append",
+  "to_edit_profession_key": "professions:mining",
+  "actions": [
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 2.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 2.0
+        }
+      ],
+      "blocks": [
+        "byg:ametrine_ore",
+        "byg:budding_ametrine_ore",
+        "byg:anthracite_ore"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 7.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 7.0
+        }
+      ],
+      "blocks": [
+        "byg:pendorite_ore"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 4.0
+        },
+        {
+          "reward": "professions:payment",
+          "amount": 4.0,
+          "currency": "eights_economy:dollars"
+        }
+      ],
+      "blocks": [
+        "byg:emeraldite_ore",
+        "byg:cryptic_redstone_ore"
+      ]
+    }
+  ],
+  "unlocks": []
+}
