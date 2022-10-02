@@ -1,9 +1,14 @@
 package com.epherical.professionsi.integrations;
 
 import com.epherical.professions.Constants;
+import com.epherical.professions.ProfessionsFabric;
 import com.epherical.professions.config.ProfessionConfig;
 import com.epherical.professions.datagen.ProviderHelpers;
+import com.epherical.professions.integration.cardinal.BlockEntityComponent;
+import com.epherical.professions.integration.cardinal.PlayerOwning;
 import com.google.gson.Gson;
+import dev.onyxstudios.cca.api.v3.block.BlockComponentFactoryRegistry;
+import dev.onyxstudios.cca.api.v3.component.ComponentKey;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
@@ -20,6 +25,7 @@ public abstract class Module {
 
     public Module(String modID) {
         this.modID = modID;
+
     }
 
     protected ResourceLocation createAppendID(String profession) {
@@ -39,15 +45,23 @@ public abstract class Module {
     }
 
     public void loadDatapacks() {
-        if (ProfessionConfig.useBuiltinDatapack && isModLoaded()) {
-            ResourceManagerHelper.registerBuiltinResourcePack(new ResourceLocation("professionsi", "fabric/normal/" + modID),
-                    FabricLoader.getInstance().getModContainer("professionsi").get(), ResourcePackActivationType.DEFAULT_ENABLED);
-            if (ProfessionConfig.useHardcoreDatapack) {
-                ResourceManagerHelper.registerBuiltinResourcePack(new ResourceLocation("professionsi", "fabric/hardcore/" + modID),
+        if (isModLoaded()) {
+            if (ProfessionConfig.useBuiltinDatapack) {
+                ResourceManagerHelper.registerBuiltinResourcePack(new ResourceLocation("professionsi", "fabric/normal/" + modID),
                         FabricLoader.getInstance().getModContainer("professionsi").get(), ResourcePackActivationType.DEFAULT_ENABLED);
+                if (ProfessionConfig.useHardcoreDatapack) {
+                    ResourceManagerHelper.registerBuiltinResourcePack(new ResourceLocation("professionsi", "fabric/hardcore/" + modID),
+                            FabricLoader.getInstance().getModContainer("professionsi").get(), ResourcePackActivationType.DEFAULT_ENABLED);
+                }
             }
+            registerProfessionHandlers();
+            BlockEntityComponent.REGISTER_OWNABLE_BE_EVENT.register(this::registerOwnableBlocks);
         }
     }
+
+    public void registerOwnableBlocks(BlockComponentFactoryRegistry registry, ComponentKey<PlayerOwning> key) {}
+
+    public void registerProfessionHandlers() {}
 
     public void generateData(HashCache cache, Path path, Gson gson, ProviderHelpers helper) throws IOException {
         appendAlchemist(cache, path, gson, helper, Constants.modID("alchemy"));

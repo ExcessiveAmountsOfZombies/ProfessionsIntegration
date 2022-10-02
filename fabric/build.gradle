@@ -23,6 +23,9 @@ repositories {
         name = 'Ladysnake Mods'
         url = 'https://ladysnake.jfrog.io/artifactory/mods'
     }
+    repositories {
+        maven { url "https://maven.shedaniel.me" }
+    }
 
     repositories {
         maven { url "https://maven.bai.lol" }
@@ -46,13 +49,17 @@ dependencies {
 
     testCompileOnly('org.jetbrains:annotations:23.0.0')
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-    modImplementation ("com.epherical.professions:fabric:0.3.10-1.18.2")
-    modImplementation("com.epherical.professions:professions:0.3.10-1.18.2")
+    modImplementation ("com.epherical.professions:fabric:1.0.0-1.18.2")
+    modImplementation("com.epherical.professions:professions:1.0.0-1.18.2")
     modImplementation 'me.lucko:fabric-permissions-api:0.2-SNAPSHOT'
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
     // Integrations
+    // REI
+    modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:8.3.549"
+    modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:8.3.549"
+    modImplementation "dev.architectury:architectury-fabric:4.9.83"
     // BYG
     modImplementation "curse.maven:project-391378:3956526"
     // TerraBlender
@@ -61,6 +68,9 @@ dependencies {
     runtimeOnly("com.electronwill.night-config:core:${nightconfig_version}")
     // Croptopia
     modImplementation "curse.maven:project-415438:3947781"
+    // Farmer's Delight [FABRIC]
+    modImplementation "curse.maven:project-482834:3944588"
+
 }
 
 processResources {

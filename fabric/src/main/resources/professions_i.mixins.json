@@ -3,7 +3,10 @@
   "minVersion": "0.8",
   "package": "com.epherical.professionsi.mixin",
   "compatibilityLevel": "JAVA_17",
+  "plugin": "com.epherical.professionsi.mixin.ProfessionIMixinPlugin",
   "mixins": [
+    "farmerdelight.ProfessionCookingPotMixin",
+    "farmerdelight.ProfessionSkilletMixin"
   ],
   "client": [
   ],

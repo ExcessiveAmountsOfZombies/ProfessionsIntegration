@@ -1,4 +1,4 @@
-package com.epherical.professionsi.integrations.byg;
+package com.epherical.professionsi.integrations;
 
 import com.epherical.professions.datagen.ProviderHelpers;
 import com.epherical.professions.profession.action.Actions;
