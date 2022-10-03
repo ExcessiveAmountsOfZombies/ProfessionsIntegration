@@ -1,0 +1,25 @@
+{
+  "function_type": "professions:append",
+  "to_edit_profession_key": "professions:farming",
+  "actions": [
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "blocks": [
+        "#farmersdelight:wild_crops"
+      ]
+    }
+  ],
+  "unlocks": []
+}

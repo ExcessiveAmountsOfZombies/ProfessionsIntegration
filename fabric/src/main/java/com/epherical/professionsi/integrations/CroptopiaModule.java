@@ -3,15 +3,11 @@ package com.epherical.professionsi.integrations;
 import com.epherical.croptopia.register.Content;
 import com.epherical.professions.datagen.ProviderHelpers;
 import com.epherical.professions.profession.action.Actions;
-import com.epherical.professions.profession.action.builtin.items.CraftingAction;
 import com.epherical.professions.profession.action.builtin.items.FishingAction;
-import com.epherical.professions.profession.action.builtin.items.SmeltItemAction;
 import com.epherical.professions.profession.editor.Append;
 import com.google.gson.Gson;
-import net.minecraft.core.Registry;
 import net.minecraft.data.HashCache;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.Items;
 
 import java.io.IOException;
 import java.nio.file.Path;

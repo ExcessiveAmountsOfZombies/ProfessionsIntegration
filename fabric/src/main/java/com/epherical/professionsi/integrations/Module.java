@@ -85,7 +85,7 @@ public abstract class Module {
 
     public abstract void appendEnchanting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id);
 
-    public abstract void appendFarming(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id);
+    public abstract void appendFarming(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
 
     public abstract void appendFishing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
 

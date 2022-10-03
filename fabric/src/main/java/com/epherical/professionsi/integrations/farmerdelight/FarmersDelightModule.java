@@ -6,11 +6,16 @@ import com.epherical.professions.integration.cardinal.PlayerOwning;
 import com.epherical.professions.profession.ProfessionContext;
 import com.epherical.professions.profession.ProfessionParameter;
 import com.epherical.professions.profession.action.Actions;
+import com.epherical.professions.profession.action.builtin.blocks.BreakBlockAction;
+import com.epherical.professions.profession.action.builtin.blocks.PlaceBlockAction;
+import com.epherical.professions.profession.editor.Append;
 import com.epherical.professions.trigger.RewardHandler;
 import com.epherical.professionsi.integrations.Module;
 import com.google.gson.Gson;
 import com.nhoryzon.mc.farmersdelight.FarmersDelightMod;
 import com.nhoryzon.mc.farmersdelight.entity.block.SkilletBlockEntity;
+import com.nhoryzon.mc.farmersdelight.registry.BlocksRegistry;
+import com.nhoryzon.mc.farmersdelight.registry.TagsRegistry;
 import dev.onyxstudios.cca.api.v3.block.BlockComponentFactoryRegistry;
 import dev.onyxstudios.cca.api.v3.component.ComponentKey;
 import net.fabricmc.loader.api.FabricLoader;
@@ -66,7 +71,15 @@ public class FarmersDelightModule extends Module {
 
     @Override
     public void appendBuilder(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
-
+        Append.Builder app = Append.Builder.appender(id);
+        app.addAction(Actions.PLACE_BLOCK, PlaceBlockAction.place()
+                .block(BlocksRegistry.STOVE.get(), BlocksRegistry.COOKING_POT.get(), BlocksRegistry.SKILLET.get(),
+                        BlocksRegistry.OAK_CABINET.get(), BlocksRegistry.SPRUCE_CABINET.get(), BlocksRegistry.CRIMSON_CABINET.get(),
+                        BlocksRegistry.BIRCH_CABINET.get(), BlocksRegistry.JUNGLE_CABINET.get(), BlocksRegistry.ACACIA_CABINET.get(),
+                        BlocksRegistry.DARK_OAK_CABINET.get(), BlocksRegistry.WARPED_CABINET.get())
+                .reward(helper.moneyReward(1))
+                .reward(helper.expReward(1)));
+        helper.generate(gson, cache, app.build(), createNormalPath(path, createAppendID(id.getPath()), false));
     }
 
     @Override
@@ -80,7 +93,13 @@ public class FarmersDelightModule extends Module {
     }
 
     @Override
-    public void appendFarming(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendFarming(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+        Append.Builder app = Append.Builder.appender(id);
+        app.addAction(Actions.BREAK_BLOCK, BreakBlockAction.breakBlock()
+                .block(TagsRegistry.WILD_CROPS)
+                .reward(helper.moneyReward(0.5))
+                .reward(helper.expReward(0.5)));
+        helper.generate(gson, cache, app.build(), createNormalPath(path, createAppendID(id.getPath()), false));
 
     }
 
