@@ -63,8 +63,8 @@ dependencies {
 
     testCompileOnly('org.jetbrains:annotations:23.0.0')
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-    modImplementation ("com.epherical.professions:fabric:1.0.0-1.18.2")
-    modImplementation("com.epherical.professions:professions:1.0.0-1.18.2")
+    modImplementation ("com.epherical.professions:fabric:1.0.2-1.18.2")
+    modImplementation("com.epherical.professions:professions:1.0.2-1.18.2")
     modImplementation 'me.lucko:fabric-permissions-api:0.2-SNAPSHOT'
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"

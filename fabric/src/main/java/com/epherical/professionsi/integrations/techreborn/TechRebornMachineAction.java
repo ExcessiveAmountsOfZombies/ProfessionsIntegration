@@ -137,7 +137,7 @@ public class TechRebornMachineAction extends AbstractItemAction {
 
 
         for (ItemStack item : this.getRealItemStacks()) {
-            ActionDisplay.Icon icon = new ActionDisplay.Icon(item.getItem(), ((MutableComponent) item.getHoverName()).setStyle(Style.EMPTY.withColor(ProfessionConfig.descriptors)), this.allRewardInformation(), actionType);
+            ActionDisplay.Icon icon = new ActionDisplay.Icon(item, ((MutableComponent) item.getHoverName()).setStyle(Style.EMPTY.withColor(ProfessionConfig.descriptors)), this.allRewardInformation(), actionType);
             components.add(icon);
         }
 
