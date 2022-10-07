@@ -1,0 +1,2914 @@
+{
+  "function_type": "professions:append",
+  "to_edit_profession_key": "professions:smithing",
+  "actions": [
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 20.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 15.0
+        }
+      ],
+      "items": [
+        "techreborn:peridot_helmet",
+        "techreborn:ruby_helmet",
+        "techreborn:sapphire_helmet"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 32.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 24.0
+        }
+      ],
+      "items": [
+        "techreborn:peridot_chestplate",
+        "techreborn:ruby_chestplate",
+        "techreborn:sapphire_chestplate"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 28.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 21.0
+        }
+      ],
+      "items": [
+        "techreborn:peridot_leggings",
+        "techreborn:ruby_leggings",
+        "techreborn:sapphire_leggings"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 16.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 12.0
+        }
+      ],
+      "items": [
+        "techreborn:peridot_boots",
+        "techreborn:ruby_boots",
+        "techreborn:sapphire_boots"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 8.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        }
+      ],
+      "items": [
+        "techreborn:peridot_sword",
+        "techreborn:ruby_sword",
+        "techreborn:sapphire_sword"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 12.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 9.0
+        }
+      ],
+      "items": [
+        "techreborn:peridot_pickaxe",
+        "techreborn:ruby_pickaxe",
+        "techreborn:sapphire_pickaxe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 4.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 3.0
+        }
+      ],
+      "items": [
+        "techreborn:peridot_spade",
+        "techreborn:ruby_spade",
+        "techreborn:sapphire_spade"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 12.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 9.0
+        }
+      ],
+      "items": [
+        "techreborn:peridot_axe",
+        "techreborn:ruby_axe",
+        "techreborn:sapphire_axe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 8.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        }
+      ],
+      "items": [
+        "techreborn:peridot_hoe",
+        "techreborn:ruby_hoe",
+        "techreborn:sapphire_hoe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 36.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 28.0
+        }
+      ],
+      "items": [
+        "techreborn:bronze_chestplate",
+        "techreborn:silver_chestplate"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 31.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 24.5
+        }
+      ],
+      "items": [
+        "techreborn:bronze_leggings",
+        "techreborn:silver_leggings"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 18.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 14.0
+        }
+      ],
+      "items": [
+        "techreborn:bronze_boots",
+        "techreborn:silver_boots"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 22.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 17.5
+        }
+      ],
+      "items": [
+        "techreborn:bronze_helmet",
+        "techreborn:silver_helmet"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 9.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 7.0
+        }
+      ],
+      "items": [
+        "techreborn:bronze_sword"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 13.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.5
+        }
+      ],
+      "items": [
+        "techreborn:bronze_pickaxe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 4.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 3.5
+        }
+      ],
+      "items": [
+        "techreborn:bronze_spade"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 13.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.5
+        }
+      ],
+      "items": [
+        "techreborn:bronze_axe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 9.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 7.0
+        }
+      ],
+      "items": [
+        "techreborn:bronze_hoe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 30.0,
+          "currency": "eights_economy:dollars"
+        }
+      ],
+      "items": [
+        "techreborn:steel_helmet"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 48.0,
+          "currency": "eights_economy:dollars"
+        }
+      ],
+      "items": [
+        "techreborn:steel_chestplate"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 42.0,
+          "currency": "eights_economy:dollars"
+        }
+      ],
+      "items": [
+        "techreborn:steel_leggings"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 24.0,
+          "currency": "eights_economy:dollars"
+        }
+      ],
+      "items": [
+        "techreborn:steel_boots"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 25.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 50.0
+        }
+      ],
+      "items": [
+        "techreborn:iridium_alloy_ingot"
+      ]
+    },
+    {
+      "action": "professions:tr_assembling",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.0
+        }
+      ],
+      "items": [
+        "techreborn:electronic_circuit",
+        "techreborn:advanced_circuit",
+        "techreborn:industrial_circuit",
+        "techreborn:lithium_ion_battery",
+        "techreborn:energy_crystal"
+      ],
+      "recipe_type": "techreborn:assembling_machine"
+    },
+    {
+      "action": "professions:tr_compress",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "#techreborn:plates"
+      ],
+      "recipe_type": "techreborn:compressor"
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.25
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:centrifuge",
+      "nbt": {
+        "fluid": "techreborn:mercury"
+      }
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.25
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:centrifuge",
+      "nbt": {
+        "fluid": "techreborn:methane"
+      }
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.25
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:centrifuge",
+      "nbt": {
+        "fluid": "techreborn:oil"
+      }
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.25
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:centrifuge",
+      "nbt": {
+        "fluid": "techreborn:carbon"
+      }
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.25
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:centrifuge",
+      "nbt": {
+        "fluid": "techreborn:silicon"
+      }
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.25
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:centrifuge",
+      "nbt": {
+        "fluid": "techreborn:sulfur"
+      }
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.25
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:centrifuge",
+      "nbt": {
+        "fluid": "techreborn:deuterium"
+      }
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.25
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:centrifuge",
+      "nbt": {
+        "fluid": "techreborn:helium3"
+      }
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.25
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:centrifuge",
+      "nbt": {
+        "fluid": "techreborn:helium"
+      }
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.25
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:centrifuge",
+      "nbt": {
+        "fluid": "techreborn:tritium"
+      }
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.12
+        }
+      ],
+      "items": [
+        "techreborn:andradite_dust",
+        "techreborn:grossular_dust",
+        "techreborn:uvarovite_dust",
+        "techreborn:ender_pearl_dust",
+        "techreborn:calcite_dust",
+        "techreborn:ashes_dust",
+        "techreborn:dark_ashes_dust",
+        "techreborn:sulfur_dust",
+        "techreborn:saltpeter_dust",
+        "techreborn:coal_dust",
+        "techreborn:pyrite_dust",
+        "techreborn:ruby_dust",
+        "techreborn:pyrope_dust",
+        "techreborn:almandine_dust",
+        "techreborn:spessartine_dust",
+        "techreborn:magnesium_dust",
+        "techreborn:lazurite_dust",
+        "techreborn:peridot_dust",
+        "techreborn:flint_dust",
+        "techreborn:tungsten_small_dust",
+        "techreborn:pyrite_small_dust",
+        "techreborn:calcite_small_dust",
+        "techreborn:sodalite_small_dust",
+        "techreborn:rubber",
+        "techreborn:sap"
+      ],
+      "recipe_type": "techreborn:centrifuge"
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.15,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.12
+        }
+      ],
+      "items": [
+        "techreborn:plantball"
+      ],
+      "recipe_type": "techreborn:centrifuge"
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.12
+        }
+      ],
+      "items": [
+        "techreborn:zinc_nugget",
+        "techreborn:lead_nugget",
+        "techreborn:silver_nugget",
+        "techreborn:nickel_nugget",
+        "techreborn:tin_nugget",
+        "techreborn:copper_nugget"
+      ],
+      "recipe_type": "techreborn:centrifuge"
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:iridium_nugget"
+      ],
+      "recipe_type": "techreborn:centrifuge"
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:iridium_nugget"
+      ],
+      "recipe_type": "techreborn:centrifuge"
+    },
+    {
+      "action": "professions:tr_centrifuge",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.12
+        }
+      ],
+      "items": [
+        "minecraft:dirt",
+        "minecraft:glowstone_dust",
+        "minecraft:sand",
+        "minecraft:red_dye",
+        "minecraft:dead_tube_coral",
+        "minecraft:dead_tube_coral_fan",
+        "minecraft:netherrack",
+        "minecraft:warped_fungus",
+        "minecraft:clay_ball",
+        "minecraft:gravel",
+        "minecraft:hanging_roots",
+        "minecraft:iron_nugget",
+        "minecraft:redstone"
+      ],
+      "recipe_type": "techreborn:centrifuge"
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:calcium"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:silicon"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:compressed_air"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:hydrogen"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:sulfur"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:potassium"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:nitrogen"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:beryllium"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:electrolyzed_water"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:carbon"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:sodium"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:chlorite"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:wolframium"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:mercury"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer",
+      "nbt": {
+        "fluid": "techreborn:carbon_fiber"
+      }
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.2
+        }
+      ],
+      "items": [
+        "techreborn:chrome_dust",
+        "techreborn:aluminum_dust",
+        "techreborn:manganese_dust",
+        "techreborn:magnesium_dust",
+        "techreborn:zinc_dust",
+        "techreborn:sulfur_dust",
+        "minecraft:raw_iron"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer"
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.25,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.2
+        }
+      ],
+      "items": [
+        "minecraft:raw_iron"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer"
+    },
+    {
+      "action": "professions:tr_electrolyze",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.1
+        }
+      ],
+      "items": [
+        "techreborn:magnesium_small_dust"
+      ],
+      "recipe_type": "techreborn:industrial_electrolyzer"
+    },
+    {
+      "action": "professions:tr_alloy_smelting",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 6.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 4.0
+        }
+      ],
+      "items": [
+        "minecraft:netherite_ingot"
+      ],
+      "recipe_type": "techreborn:alloy_smelter"
+    },
+    {
+      "action": "professions:tr_alloy_smelting",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 3.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 2.0
+        }
+      ],
+      "items": [
+        "techreborn:electrum_ingot"
+      ],
+      "recipe_type": "techreborn:alloy_smelter"
+    },
+    {
+      "action": "professions:tr_alloy_smelting",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 2.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 2.0
+        }
+      ],
+      "items": [
+        "techreborn:bronze_ingot"
+      ],
+      "recipe_type": "techreborn:alloy_smelter"
+    },
+    {
+      "action": "professions:tr_alloy_smelting",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 2.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 2.0
+        }
+      ],
+      "items": [
+        "techreborn:brass_ingot"
+      ],
+      "recipe_type": "techreborn:alloy_smelter"
+    },
+    {
+      "action": "professions:tr_alloy_smelting",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 3.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 2.0
+        }
+      ],
+      "items": [
+        "techreborn:invar_ingot"
+      ],
+      "recipe_type": "techreborn:alloy_smelter"
+    },
+    {
+      "action": "professions:tr_implosion_comp",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.3
+        }
+      ],
+      "items": [
+        "techreborn:yellow_garnet_gem",
+        "techreborn:ender_eye_small_dust",
+        "techreborn:dark_ashes_dust",
+        "techreborn:sapphire_gem",
+        "techreborn:ruby_gem",
+        "techreborn:red_garnet_gem",
+        "techreborn:peridot_gem",
+        "techreborn:red_garnet_dust"
+      ],
+      "recipe_type": "techreborn:implosion_compressor"
+    },
+    {
+      "action": "professions:tr_implosion_comp",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 4.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        }
+      ],
+      "items": [
+        "techreborn:iridium_alloy_plate"
+      ],
+      "recipe_type": "techreborn:implosion_compressor"
+    },
+    {
+      "action": "professions:tr_implosion_comp",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.3
+        }
+      ],
+      "items": [
+        "minecraft:emerald"
+      ],
+      "recipe_type": "techreborn:implosion_compressor"
+    },
+    {
+      "action": "professions:tr_implosion_comp",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "minecraft:amethyst_shard"
+      ],
+      "recipe_type": "techreborn:implosion_compressor"
+    },
+    {
+      "action": "professions:tr_distillation",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:distillation_tower",
+      "nbt": {
+        "fluid": "techreborn:diesel"
+      }
+    },
+    {
+      "action": "professions:tr_distillation",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:distillation_tower",
+      "nbt": {
+        "fluid": "techreborn:sulfuric_acid"
+      }
+    },
+    {
+      "action": "professions:tr_distillation",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:distillation_tower",
+      "nbt": {
+        "fluid": "techreborn:glyceryl"
+      }
+    },
+    {
+      "action": "professions:tr_extract",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.2
+        }
+      ],
+      "items": [
+        "minecraft:yellow_dye",
+        "minecraft:white_dye",
+        "minecraft:red_dye",
+        "minecraft:purple_dye",
+        "minecraft:pink_dye",
+        "minecraft:orange_dye",
+        "minecraft:magenta_dye",
+        "minecraft:light_gray_dye",
+        "minecraft:light_blue_dye",
+        "minecraft:green_dye",
+        "minecraft:cyan_dye",
+        "minecraft:brown_dye",
+        "minecraft:blue_dye",
+        "minecraft:black_dye",
+        "minecraft:gray_dye",
+        "minecraft:glass_bottle",
+        "minecraft:flint",
+        "minecraft:wheat_seeds",
+        "minecraft:sugar",
+        "minecraft:string",
+        "minecraft:stick",
+        "minecraft:paper"
+      ],
+      "recipe_type": "techreborn:extractor"
+    },
+    {
+      "action": "professions:tr_extract",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 1.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.0
+        }
+      ],
+      "items": [
+        "minecraft:phantom_membrane"
+      ],
+      "recipe_type": "techreborn:extractor"
+    },
+    {
+      "action": "professions:tr_extract",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 1.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.0
+        }
+      ],
+      "items": [
+        "techreborn:sponge_piece"
+      ],
+      "recipe_type": "techreborn:extractor"
+    },
+    {
+      "action": "professions:tr_extract",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.2
+        }
+      ],
+      "items": [
+        "techreborn:rubber"
+      ],
+      "recipe_type": "techreborn:extractor"
+    },
+    {
+      "action": "professions:tr_blast_furnace",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:tungsten_ingot"
+      ],
+      "recipe_type": "techreborn:blast_furnace"
+    },
+    {
+      "action": "professions:tr_blast_furnace",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:titanium_ingot"
+      ],
+      "recipe_type": "techreborn:blast_furnace"
+    },
+    {
+      "action": "professions:tr_blast_furnace",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:steel_ingot"
+      ],
+      "recipe_type": "techreborn:blast_furnace"
+    },
+    {
+      "action": "professions:tr_blast_furnace",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:silver_ingot"
+      ],
+      "recipe_type": "techreborn:blast_furnace"
+    },
+    {
+      "action": "professions:tr_blast_furnace",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:refined_iron_ingot"
+      ],
+      "recipe_type": "techreborn:blast_furnace"
+    },
+    {
+      "action": "professions:tr_blast_furnace",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:chrome_ingot"
+      ],
+      "recipe_type": "techreborn:blast_furnace"
+    },
+    {
+      "action": "professions:tr_blast_furnace",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:aluminum_ingot"
+      ],
+      "recipe_type": "techreborn:blast_furnace"
+    },
+    {
+      "action": "professions:tr_blast_furnace",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 2.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 5.0
+        }
+      ],
+      "items": [
+        "techreborn:hot_tungstensteel_ingot"
+      ],
+      "recipe_type": "techreborn:blast_furnace"
+    },
+    {
+      "action": "professions:tr_blast_furnace",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 2.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 5.0
+        }
+      ],
+      "items": [
+        "techreborn:iridium_ingot"
+      ],
+      "recipe_type": "techreborn:blast_furnace"
+    },
+    {
+      "action": "professions:tr_blast_furnace",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.05,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.2
+        }
+      ],
+      "items": [
+        "techreborn:dark_ashes_dust"
+      ],
+      "recipe_type": "techreborn:blast_furnace"
+    },
+    {
+      "action": "professions:tr_blast_furnace",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.05,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.2
+        }
+      ],
+      "items": [
+        "techreborn:dark_ashes_dust"
+      ],
+      "recipe_type": "techreborn:blast_furnace"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.0
+        }
+      ],
+      "items": [
+        "techreborn:raw_tungsten"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.0
+        }
+      ],
+      "items": [
+        "techreborn:raw_tin"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.0
+        }
+      ],
+      "items": [
+        "techreborn:raw_silver"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.0
+        }
+      ],
+      "items": [
+        "techreborn:raw_lead"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 1.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 3.0
+        }
+      ],
+      "items": [
+        "techreborn:raw_iridium"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.0
+        }
+      ],
+      "items": [
+        "minecraft:raw_iron"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.0
+        }
+      ],
+      "items": [
+        "minecraft:raw_gold"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.0
+        }
+      ],
+      "items": [
+        "minecraft:raw_copper"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.0
+        }
+      ],
+      "items": [
+        "minecraft:netherite_scrap"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:sphalerite_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.0
+        }
+      ],
+      "items": [
+        "techreborn:platinum_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:sodalite_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:aluminum_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:zinc_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:yellow_garnet_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:nickel_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:pyrite_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:sulfur_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:obsidian_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.3
+        }
+      ],
+      "items": [
+        "techreborn:lazurite_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.3
+        }
+      ],
+      "items": [
+        "techreborn:galena_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:diamond_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:titanium_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.1
+        }
+      ],
+      "items": [
+        "techreborn:netherrack_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.1
+        }
+      ],
+      "items": [
+        "techreborn:endstone_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        }
+      ],
+      "items": [
+        "techreborn:netherrack_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.3
+        }
+      ],
+      "items": [
+        "techreborn:sapphire_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.3
+        }
+      ],
+      "items": [
+        "techreborn:ruby_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.3
+        }
+      ],
+      "items": [
+        "techreborn:peridot_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 2.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.0
+        }
+      ],
+      "items": [
+        "techreborn:iridium_nugget"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:tin_nugget"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:nickel_nugget"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:copper_nugget"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:nickel_nugget"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.2
+        }
+      ],
+      "items": [
+        "minecraft:gold_nugget"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.1
+        }
+      ],
+      "items": [
+        "techreborn:glowstone_small_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.1
+        }
+      ],
+      "items": [
+        "techreborn:sulfur_small_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.1
+        }
+      ],
+      "items": [
+        "techreborn:galena_small_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.3
+        }
+      ],
+      "items": [
+        "techreborn:platinum_small_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.3
+        }
+      ],
+      "items": [
+        "techreborn:diamond_small_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.3
+        }
+      ],
+      "items": [
+        "techreborn:titanium_small_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.1
+        }
+      ],
+      "items": [
+        "techreborn:sapphire_small_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.1
+        }
+      ],
+      "items": [
+        "techreborn:ruby_small_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.1,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.1
+        }
+      ],
+      "items": [
+        "techreborn:peridot_small_dust"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:sapphire_gem"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:ruby_gem"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "techreborn:peridot_gem"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "minecraft:redstone"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "minecraft:quartz"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_grinder",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.3,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.35
+        }
+      ],
+      "items": [
+        "minecraft:lapis_lazuli"
+      ],
+      "recipe_type": "techreborn:industrial_grinder"
+    },
+    {
+      "action": "professions:tr_sawmill",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.2
+        }
+      ],
+      "items": [
+        "techreborn:saw_dust"
+      ],
+      "recipe_type": "techreborn:industrial_sawmill"
+    },
+    {
+      "action": "professions:tr_solid_canning",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:water_coolant_cell_10k"
+      ],
+      "recipe_type": "techreborn:solid_canning_machine"
+    },
+    {
+      "action": "professions:tr_solid_canning",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:helium_coolant_cell_60k"
+      ],
+      "recipe_type": "techreborn:solid_canning_machine"
+    },
+    {
+      "action": "professions:tr_solid_canning",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:solid_canning_machine",
+      "nbt": {
+        "fluid": "techreborn:biofuel"
+      }
+    },
+    {
+      "action": "professions:tr_solid_canning",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:cell"
+      ],
+      "recipe_type": "techreborn:solid_canning_machine",
+      "nbt": {
+        "fluid": "techreborn:sulfur"
+      }
+    },
+    {
+      "action": "professions:tr_wire_mill",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:tin_cable"
+      ],
+      "recipe_type": "techreborn:wire_mill"
+    },
+    {
+      "action": "professions:tr_wire_mill",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:hv_cable"
+      ],
+      "recipe_type": "techreborn:wire_mill"
+    },
+    {
+      "action": "professions:tr_wire_mill",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:gold_cable"
+      ],
+      "recipe_type": "techreborn:wire_mill"
+    },
+    {
+      "action": "professions:tr_wire_mill",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.2,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.4
+        }
+      ],
+      "items": [
+        "techreborn:copper_cable"
+      ],
+      "recipe_type": "techreborn:wire_mill"
+    }
+  ],
+  "unlocks": []
+}

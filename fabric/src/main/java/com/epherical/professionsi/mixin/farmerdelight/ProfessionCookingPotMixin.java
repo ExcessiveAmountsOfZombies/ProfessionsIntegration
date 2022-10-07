@@ -24,6 +24,7 @@ public class ProfessionCookingPotMixin {
      */
     @Inject(method = "checkTakeAchievements", at = @At(value = "INVOKE", target = "Lcom/nhoryzon/mc/farmersdelight/entity/block/CookingPotBlockEntity;clearUsedRecipes(Lnet/minecraft/world/entity/player/Player;)V"))
     public void professions$handleCooking(ItemStack stack, CallbackInfo ci) {
+        // todo; bugged doesn't work on shift click
         TriggerEvents.TAKE_SMELTED_ITEM_EVENT.invoker().onItemTake((ServerPlayer) player, stack);
     }
 

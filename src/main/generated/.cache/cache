@@ -1,3 +1,4 @@
+5eba0acd646e471ee0910c36f897de4be4e3a3a9 resourcepacks\fabric\normal\techreborn\data\professions\professions\occupations\append\techreborn\crafting.json
 eead896a552759c4fd295c69863e191a124bd56e resourcepacks\fabric\normal\farmersdelight\data\professions\professions\occupations\append\farmersdelight\farming.json
 e557b3d145bc8fc77366d3dd510893538550bb30 resourcepacks\fabric\normal\byg\data\professions\professions\occupations\append\byg\crafting.json
 15d8ac59d823ee7564ea4161c201a8260482a3d9 resourcepacks\fabric\normal\byg\data\professions\professions\occupations\append\byg\mining.json
@@ -5,4 +6,6 @@ e557b3d145bc8fc77366d3dd510893538550bb30 resourcepacks\fabric\normal\byg\data\pr
 192607acede50b2fb08f8cb371e685b557e5271f resourcepacks\fabric\normal\farmersdelight\data\professions\professions\occupations\append\farmersdelight\building.json
 081a931b736cfd5b0b4e093d0f69ab6880f1e579 resourcepacks\fabric\normal\c\data\professions\professions\occupations\append\c\building.json
 6b7b953375f5465e03956b034ab3a766490e46f2 resourcepacks\fabric\normal\data\professions\professions\occupations\chef.json
+a8e10eeca4be375e3fd66289b3afe2bdb28c4a8a resourcepacks\fabric\normal\techreborn\data\professions\professions\occupations\append\techreborn\mining.json
+38d8463f73d9951914af4790baf3b15739c8ac34 resourcepacks\fabric\normal\techreborn\data\professions\professions\occupations\append\techreborn\smithing.json
 dc7fffc065cf1a2d8f36067e14950f43b39f9f49 resourcepacks\fabric\normal\byg\data\professions\professions\occupations\append\byg\building.json

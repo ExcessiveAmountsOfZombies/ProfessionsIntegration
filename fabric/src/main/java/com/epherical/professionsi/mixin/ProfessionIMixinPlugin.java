@@ -1,6 +1,7 @@
 package com.epherical.professionsi.mixin;
 
 import com.epherical.professionsi.integrations.farmerdelight.FarmersDelightModule;
+import com.epherical.professionsi.integrations.techreborn.TechRebornMixins;
 import org.objectweb.asm.tree.ClassNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;
 import org.spongepowered.asm.mixin.extensibility.IMixinInfo;
@@ -15,6 +16,7 @@ public class ProfessionIMixinPlugin implements IMixinConfigPlugin {
 
     static {
         FarmersDelightModule.dontLoadMixin(MIXINS);
+        TechRebornMixins.dontLoadMixin(MIXINS);
     }
 
     @Override

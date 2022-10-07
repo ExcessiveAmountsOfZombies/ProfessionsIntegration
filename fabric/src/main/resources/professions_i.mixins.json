@@ -6,7 +6,8 @@
   "plugin": "com.epherical.professionsi.mixin.ProfessionIMixinPlugin",
   "mixins": [
     "farmerdelight.ProfessionCookingPotMixin",
-    "farmerdelight.ProfessionSkilletMixin"
+    "farmerdelight.ProfessionSkilletMixin",
+    "techreborn.ProfessionRecipeCrafterMixin"
   ],
   "client": [
   ],

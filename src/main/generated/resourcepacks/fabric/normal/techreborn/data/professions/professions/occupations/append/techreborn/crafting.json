@@ -1,0 +1,336 @@
+{
+  "function_type": "professions:append",
+  "to_edit_profession_key": "professions:crafting",
+  "actions": [
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 5.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 5.0
+        }
+      ],
+      "items": [
+        "techreborn:basic_machine_frame",
+        "techreborn:basic_machine_casing",
+        "techreborn:advanced_machine_frame",
+        "techreborn:advanced_machine_casing"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 10.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 25.0
+        }
+      ],
+      "items": [
+        "techreborn:industrial_machine_frame",
+        "techreborn:industrial_machine_casing"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 5.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.0
+        }
+      ],
+      "items": [
+        "techreborn:basic_solar_panel",
+        "techreborn:advanced_solar_panel",
+        "techreborn:industrial_solar_panel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 10.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 30.0
+        }
+      ],
+      "items": [
+        "techreborn:ultimate_solar_panel",
+        "techreborn:quantum_solar_panel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 1.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 3.0
+        }
+      ],
+      "items": [
+        "techreborn:crude_storage_unit",
+        "techreborn:basic_display",
+        "techreborn:digital_display",
+        "techreborn:data_storage_core",
+        "techreborn:diamond_saw_blade",
+        "techreborn:diamond_grinding_head",
+        "techreborn:neutron_reflector",
+        "techreborn:red_cell_battery",
+        "techreborn:wrench",
+        "techreborn:painting_tool",
+        "techreborn:omni_tool"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 2.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        }
+      ],
+      "items": [
+        "techreborn:basic_storage_unit",
+        "techreborn:basic_tank_unit",
+        "techreborn:iron_furnace",
+        "techreborn:alarm",
+        "techreborn:lamp_incandescent",
+        "techreborn:lamp_led",
+        "techreborn:tungsten_grinding_head",
+        "techreborn:thick_neutron_reflector",
+        "techreborn:overclocker_upgrade",
+        "techreborn:transformer_upgrade",
+        "techreborn:energy_storage_upgrade",
+        "techreborn:electric_treetap",
+        "techreborn:rock_cutter"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 4.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.0
+        }
+      ],
+      "items": [
+        "techreborn:advanced_storage_unit",
+        "techreborn:advanced_tank_unit",
+        "techreborn:alloy_smelter",
+        "techreborn:compressor",
+        "techreborn:extractor",
+        "techreborn:grinder",
+        "techreborn:electric_furnace",
+        "techreborn:iron_alloy_furnace",
+        "techreborn:recycler",
+        "techreborn:scrapboxinator",
+        "techreborn:block_breaker",
+        "techreborn:block_placer",
+        "techreborn:solid_fuel_generator",
+        "techreborn:water_mill",
+        "techreborn:drain",
+        "techreborn:lapotronic_su",
+        "techreborn:lsu_storage",
+        "techreborn:low_voltage_su",
+        "techreborn:medium_voltage_su",
+        "techreborn:lv_transformer",
+        "techreborn:mv_transformer",
+        "techreborn:hv_transformer",
+        "techreborn:energy_flow_chip",
+        "techreborn:iridium_neutron_reflector",
+        "techreborn:lithium_ion_batpack",
+        "techreborn:lapotron_crystal",
+        "techreborn:lapotronic_orb",
+        "techreborn:basic_drill",
+        "techreborn:basic_chainsaw",
+        "techreborn:basic_jackhammer",
+        "techreborn:advanced_chainsaw",
+        "techreborn:advanced_drill",
+        "techreborn:advanced_jackhammer",
+        "techreborn:nanosaber"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 10.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 30.0
+        }
+      ],
+      "items": [
+        "techreborn:industrial_storage_unit",
+        "techreborn:quantum_storage_unit",
+        "techreborn:industrial_tank_unit",
+        "techreborn:quantum_tank_unit",
+        "techreborn:superconductor_cable",
+        "techreborn:auto_crafting_table",
+        "techreborn:chemical_reactor",
+        "techreborn:implosion_compressor",
+        "techreborn:rolling_machine",
+        "techreborn:vacuum_freezer",
+        "techreborn:solid_canning_machine",
+        "techreborn:wire_mill",
+        "techreborn:greenhouse_controller",
+        "techreborn:diesel_generator",
+        "techreborn:wind_mill",
+        "techreborn:semi_fluid_generator",
+        "techreborn:thermal_generator",
+        "techreborn:chunk_loader",
+        "techreborn:player_detector",
+        "techreborn:computer_cube",
+        "techreborn:data_storage_chip",
+        "techreborn:superconductor_upgrade",
+        "techreborn:industrial_chainsaw",
+        "techreborn:industrial_drill",
+        "techreborn:industrial_jackhammer",
+        "techreborn:cloaking_device"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 1.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 3.0
+        }
+      ],
+      "items": [
+        "techreborn:glassfiber_cable",
+        "techreborn:insulated_copper_cable",
+        "techreborn:insulated_gold_cable",
+        "techreborn:insulated_hv_cable",
+        "techreborn:reinforced_glass"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 5.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 50.0
+        }
+      ],
+      "items": [
+        "techreborn:assembly_machine",
+        "techreborn:distillation_tower",
+        "techreborn:industrial_blast_furnace",
+        "techreborn:industrial_centrifuge",
+        "techreborn:industrial_electrolyzer",
+        "techreborn:industrial_sawmill",
+        "techreborn:high_voltage_su",
+        "techreborn:nuke",
+        "techreborn:lapotronic_orbpack"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 15.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 100.0
+        }
+      ],
+      "items": [
+        "techreborn:industrial_grinder",
+        "techreborn:gas_turbine",
+        "techreborn:charge_o_mat"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 20.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 200.0
+        }
+      ],
+      "items": [
+        "techreborn:fluid_replicator",
+        "techreborn:matter_fabricator",
+        "techreborn:dragon_egg_syphon",
+        "techreborn:fusion_control_computer",
+        "techreborn:fusion_coil",
+        "techreborn:lightning_rod",
+        "techreborn:plasma_generator",
+        "techreborn:adjustable_su",
+        "techreborn:interdimensional_su",
+        "techreborn:quantum_helmet",
+        "techreborn:quantum_chestplate",
+        "techreborn:quantum_leggings",
+        "techreborn:quantum_boots"
+      ]
+    }
+  ],
+  "unlocks": []
+}

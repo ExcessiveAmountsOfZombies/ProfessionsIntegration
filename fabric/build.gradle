@@ -12,7 +12,13 @@ archivesBaseName = archives_base_name
 
 repositories {
     maven { url "https://oss.sonatype.org/content/repositories/snapshots"}
-    maven { url 'https://jitpack.io' }
+    maven {
+        url 'https://jitpack.io'
+        content {
+            includeGroup "com.github.Technici4n"
+            includeGroup "com.github.Draylar.omega-config"
+        }
+    }
     maven {
         url "https://www.cursemaven.com"
         content {
@@ -31,6 +37,14 @@ repositories {
         maven { url "https://maven.bai.lol" }
     }
     mavenLocal()
+
+    // for reach entity attributes, required by Magna
+    maven {
+        url = "https://maven.jamieswhiteshirt.com/libs-release/"
+        content {
+            includeGroup "com.jamieswhiteshirt"
+        }
+    }
 }
 
 configurations {
@@ -70,6 +84,13 @@ dependencies {
     modImplementation "curse.maven:project-415438:3947781"
     // Farmer's Delight [FABRIC]
     modImplementation "curse.maven:project-482834:3944588"
+    // Modern Industrialization
+    //modImplementationMapped "curse.maven:project-405388:3866891"
+    /*runtimeOnly("teamreborn:energy:2.2.0")
+    runtimeOnly("com.github.Technici4n:magna:1.8.1-1.19") {
+        transitive = false
+    }*/
+    modImplementation "TechReborn:TechReborn-1.18:5.2.0-beta.3"
 
 }
 

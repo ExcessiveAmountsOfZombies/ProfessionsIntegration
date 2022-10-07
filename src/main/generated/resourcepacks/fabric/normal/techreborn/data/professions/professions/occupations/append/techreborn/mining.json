@@ -1,0 +1,175 @@
+{
+  "function_type": "professions:append",
+  "to_edit_profession_key": "professions:mining",
+  "actions": [
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 3.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 4.0
+        }
+      ],
+      "blocks": [
+        "#c:bauxite_ores"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 3.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 3.6
+        }
+      ],
+      "blocks": [
+        "#c:galena_ores"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 10.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 20.0
+        }
+      ],
+      "blocks": [
+        "#c:iridium_ores"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 4.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 4.0
+        }
+      ],
+      "blocks": [
+        "#c:lead_ores"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 5.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 5.0
+        }
+      ],
+      "blocks": [
+        "#c:peridot_ores"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 5.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 5.0
+        }
+      ],
+      "blocks": [
+        "#c:cinnabar_ores"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 5.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 5.0
+        }
+      ],
+      "blocks": [
+        "#c:pyrite_ores"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 5.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 5.0
+        }
+      ],
+      "blocks": [
+        "#c:ruby_ores",
+        "#c:sapphire_ores",
+        "#c:sheldonite_ores",
+        "#c:silver_ores",
+        "#c:sodalite_ores",
+        "#c:tungsten_ores"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 2.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 2.5
+        }
+      ],
+      "blocks": [
+        "#c:sphalerite_ores",
+        "#c:tin_ores"
+      ]
+    }
+  ],
+  "unlocks": []
+}

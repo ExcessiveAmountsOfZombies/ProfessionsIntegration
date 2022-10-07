@@ -95,7 +95,7 @@ public abstract class Module {
 
     public abstract void appendTrading(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id);
 
-    public abstract void appendSmithing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id);
+    public abstract void appendSmithing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
 
     public abstract void appendLogging(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id);
 
