@@ -14,11 +14,10 @@ import com.epherical.professions.profession.editor.Append;
 import com.epherical.professions.trigger.RewardHandler;
 import com.epherical.professionsi.integrations.Module;
 import com.google.gson.Gson;
-import com.mojang.datafixers.kinds.App;
 import dev.onyxstudios.cca.api.v3.block.BlockComponentFactoryRegistry;
 import dev.onyxstudios.cca.api.v3.component.ComponentKey;
 import net.minecraft.core.Registry;
-import net.minecraft.data.HashCache;
+import net.minecraft.data.CachedOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.item.Item;
@@ -29,7 +28,6 @@ import techreborn.TechReborn;
 import techreborn.blockentity.machine.GenericMachineBlockEntity;
 import techreborn.init.ModFluids;
 import techreborn.init.ModRecipes;
-import techreborn.init.TRContent;
 import techreborn.items.DynamicCellItem;
 
 import java.io.IOException;
@@ -88,17 +86,17 @@ public class TechRebornModule extends Module {
     }
 
     @Override
-    public void appendAlchemist(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendAlchemist(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendBuilder(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendBuilder(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendCrafting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendCrafting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
         Append.Builder builder = Append.Builder.appender(id);
         builder.addAction(Actions.CRAFTS_ITEM, CraftingAction.craft()
                 .item(MachineBlocks.BASIC.getFrame().asItem(), MachineBlocks.BASIC.getCasing().asItem(),
@@ -327,32 +325,32 @@ public class TechRebornModule extends Module {
                 .addAction(TR_SOLID_CANNING, cellBasedAction(ModRecipes.SOLID_CANNING_MACHINE, 0.2, 0.4, ModFluids.BIOFUEL, helper))
                 .addAction(TR_SOLID_CANNING, cellBasedAction(ModRecipes.SOLID_CANNING_MACHINE, 0.2, 0.4, ModFluids.SULFUR, helper));
 
-        helper.generate(gson, cache, builder.build(), createNormalPath(path, createAppendID(id.getPath()), false));
+        helper.generate(cache, builder.build(), createNormalPath(path, createAppendID(id.getPath()), false));
 
     }
 
     @Override
-    public void appendEnchanting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendEnchanting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendFarming(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendFarming(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendFishing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendFishing(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendHunting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendHunting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendMining(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendMining(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
         Append.Builder builder = Append.Builder.appender(id);
         builder.addAction(Actions.BREAK_BLOCK, BreakBlockAction.breakBlock()
                 .block(createCommonTag("bauxite_ores", Registry.BLOCK))
@@ -397,17 +395,17 @@ public class TechRebornModule extends Module {
                 .reward(helper.moneyReward(2.5))
                 .reward(helper.expReward(2.5))
         );
-        helper.generate(gson, cache, builder.build(), createNormalPath(path, createAppendID(id.getPath()), false));
+        helper.generate(cache, builder.build(), createNormalPath(path, createAppendID(id.getPath()), false));
 
     }
 
     @Override
-    public void appendTrading(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendTrading(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendSmithing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendSmithing(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
         Append.Builder builder = Append.Builder.appender(id);
         builder.addAction(Actions.CRAFTS_ITEM, CraftingAction.craft()
                 .item(PERIDOT_HELMET, RUBY_HELMET, SAPPHIRE_HELMET)
@@ -537,11 +535,11 @@ public class TechRebornModule extends Module {
                 .addAction(TR_WIRE_MILL, rebornAction(ModRecipes.WIRE_MILL, Cables.GOLD.asItem(), 0.2, 0.4, helper))
                 .addAction(TR_WIRE_MILL, rebornAction(ModRecipes.WIRE_MILL, Cables.COPPER.asItem(), 0.2, 0.4, helper));
 
-        helper.generate(gson, cache, builder.build(), createNormalPath(path, createAppendID(id.getPath()), false));
+        helper.generate(cache, builder.build(), createNormalPath(path, createAppendID(id.getPath()), false));
     }
 
     @Override
-    public void appendLogging(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendLogging(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 

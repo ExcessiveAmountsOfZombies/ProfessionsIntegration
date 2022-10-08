@@ -19,7 +19,7 @@ import com.nhoryzon.mc.farmersdelight.registry.TagsRegistry;
 import dev.onyxstudios.cca.api.v3.block.BlockComponentFactoryRegistry;
 import dev.onyxstudios.cca.api.v3.component.ComponentKey;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.data.HashCache;
+import net.minecraft.data.CachedOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 
@@ -65,12 +65,12 @@ public class FarmersDelightModule extends Module {
     }
 
     @Override
-    public void appendAlchemist(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendAlchemist(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendBuilder(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendBuilder(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
         Append.Builder app = Append.Builder.appender(id);
         app.addAction(Actions.PLACE_BLOCK, PlaceBlockAction.place()
                 .block(BlocksRegistry.STOVE.get(), BlocksRegistry.COOKING_POT.get(), BlocksRegistry.SKILLET.get(),
@@ -79,57 +79,57 @@ public class FarmersDelightModule extends Module {
                         BlocksRegistry.DARK_OAK_CABINET.get(), BlocksRegistry.WARPED_CABINET.get())
                 .reward(helper.moneyReward(1))
                 .reward(helper.expReward(1)));
-        helper.generate(gson, cache, app.build(), createNormalPath(path, createAppendID(id.getPath()), false));
+        helper.generate(cache, app.build(), createNormalPath(path, createAppendID(id.getPath()), false));
     }
 
     @Override
-    public void appendCrafting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
-
-    }
-
-    @Override
-    public void appendEnchanting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendCrafting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendFarming(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendEnchanting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+
+    }
+
+    @Override
+    public void appendFarming(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
         Append.Builder app = Append.Builder.appender(id);
         app.addAction(Actions.BREAK_BLOCK, BreakBlockAction.breakBlock()
                 .block(TagsRegistry.WILD_CROPS)
                 .reward(helper.moneyReward(0.5))
                 .reward(helper.expReward(0.5)));
-        helper.generate(gson, cache, app.build(), createNormalPath(path, createAppendID(id.getPath()), false));
+        helper.generate(cache, app.build(), createNormalPath(path, createAppendID(id.getPath()), false));
 
     }
 
     @Override
-    public void appendFishing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendFishing(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendHunting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendHunting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendMining(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendMining(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendTrading(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendTrading(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendSmithing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendSmithing(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendLogging(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendLogging(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 }

@@ -6,9 +6,8 @@ import com.epherical.professions.profession.action.builtin.blocks.BreakBlockActi
 import com.epherical.professions.profession.action.builtin.blocks.PlaceBlockAction;
 import com.epherical.professions.profession.action.builtin.items.CraftingAction;
 import com.epherical.professions.profession.editor.Append;
-import com.epherical.professionsi.integrations.Module;
 import com.google.gson.Gson;
-import net.minecraft.data.HashCache;
+import net.minecraft.data.CachedOutput;
 import net.minecraft.resources.ResourceLocation;
 import potionstudios.byg.common.block.BYGBlocks;
 import potionstudios.byg.common.item.BYGItems;
@@ -23,13 +22,13 @@ public class BygModule extends Module {
     }
 
     @Override
-    public void appendAlchemist(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendAlchemist(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
         Append.Builder appender = Append.Builder.appender(id);
         //helper.generate(gson, cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
     }
 
     @Override
-    public void appendBuilder(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendBuilder(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
         Append.Builder appender = Append.Builder.appender(id);
         appender.addAction(Actions.PLACE_BLOCK, PlaceBlockAction.place()
                 .block(BYGBlocks.BORIC_LANTERN.get(), BYGBlocks.CRYPTIC_LANTERN.get(),
@@ -37,12 +36,12 @@ public class BygModule extends Module {
                 .reward(helper.moneyReward(1))
                 .reward(helper.expReward(1))
         );
-        helper.generate(gson, cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
+        helper.generate(cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
 
     }
 
     @Override
-    public void appendCrafting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendCrafting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
         Append.Builder appender = Append.Builder.appender(id);
         appender.addAction(Actions.CRAFTS_ITEM, CraftingAction.craft()
                 .item(BYGItems.THERIUM_GLASS.get())
@@ -57,32 +56,32 @@ public class BygModule extends Module {
                 .item(BYGItems.HYPOGEAL_IMPERIUM.get())
                 .reward(helper.moneyReward(5))
                 .reward(helper.expReward(5)));
-        helper.generate(gson, cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
+        helper.generate(cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
 
     }
 
     @Override
-    public void appendEnchanting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendEnchanting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendFarming(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendFarming(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendFishing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendFishing(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendHunting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendHunting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendMining(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendMining(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
         Append.Builder appender = Append.Builder.appender(id);
         appender.addAction(Actions.BREAK_BLOCK, BreakBlockAction.breakBlock()
                 .block(BYGBlocks.AMETRINE_ORE.get(), BYGBlocks.BUDDING_AMETRINE_ORE.get(), BYGBlocks.ANTHRACITE_ORE.get())
@@ -97,21 +96,21 @@ public class BygModule extends Module {
                 .reward(helper.expReward(4))
                 .reward(helper.moneyReward(4))
         );
-        helper.generate(gson, cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
+        helper.generate(cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
     }
 
     @Override
-    public void appendTrading(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
-
-    }
-
-    @Override
-    public void appendSmithing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendTrading(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendLogging(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendSmithing(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+
+    }
+
+    @Override
+    public void appendLogging(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 }

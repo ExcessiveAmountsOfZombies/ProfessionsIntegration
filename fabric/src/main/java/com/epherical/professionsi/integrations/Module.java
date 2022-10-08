@@ -1,7 +1,6 @@
 package com.epherical.professionsi.integrations;
 
 import com.epherical.professions.Constants;
-import com.epherical.professions.ProfessionsFabric;
 import com.epherical.professions.config.ProfessionConfig;
 import com.epherical.professions.datagen.ProviderHelpers;
 import com.epherical.professions.integration.cardinal.BlockEntityComponent;
@@ -13,7 +12,7 @@ import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.core.Registry;
-import net.minecraft.data.HashCache;
+import net.minecraft.data.CachedOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 
@@ -63,7 +62,7 @@ public abstract class Module {
 
     public void registerProfessionHandlers() {}
 
-    public void generateData(HashCache cache, Path path, Gson gson, ProviderHelpers helper) throws IOException {
+    public void generateData(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper) throws IOException {
         appendAlchemist(cache, path, gson, helper, Constants.modID("alchemy"));
         appendBuilder(cache, path, gson, helper, Constants.modID("building"));
         appendCrafting(cache, path, gson, helper, Constants.modID("crafting"));
@@ -77,27 +76,27 @@ public abstract class Module {
         appendLogging(cache, path, gson, helper, Constants.modID("logging"));
     }
 
-    public abstract void appendAlchemist(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
+    public abstract void appendAlchemist(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
 
-    public abstract void appendBuilder(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
+    public abstract void appendBuilder(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
 
-    public abstract void appendCrafting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
+    public abstract void appendCrafting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
 
-    public abstract void appendEnchanting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id);
+    public abstract void appendEnchanting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id);
 
-    public abstract void appendFarming(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
+    public abstract void appendFarming(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
 
-    public abstract void appendFishing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
+    public abstract void appendFishing(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
 
-    public abstract void appendHunting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id);
+    public abstract void appendHunting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id);
 
-    public abstract void appendMining(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
+    public abstract void appendMining(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
 
-    public abstract void appendTrading(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id);
+    public abstract void appendTrading(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id);
 
-    public abstract void appendSmithing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
+    public abstract void appendSmithing(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException;
 
-    public abstract void appendLogging(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id);
+    public abstract void appendLogging(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id);
 
     protected Path createNormalPath(Path path, ResourceLocation id, boolean forge) {
         String namespace = id.getNamespace();

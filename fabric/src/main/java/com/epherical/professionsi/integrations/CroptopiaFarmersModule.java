@@ -11,6 +11,7 @@ import com.epherical.professionsi.integrations.farmerdelight.FarmersDelightModul
 import com.google.gson.Gson;
 import com.nhoryzon.mc.farmersdelight.registry.ItemsRegistry;
 import net.minecraft.core.Registry;
+import net.minecraft.data.CachedOutput;
 import net.minecraft.data.HashCache;
 import net.minecraft.network.chat.TextColor;
 import net.minecraft.resources.ResourceLocation;
@@ -26,7 +27,7 @@ public class CroptopiaFarmersModule extends CompoundModule {
     }
 
     @Override
-    public void generateData(HashCache cache, Path path, Gson gson, ProviderHelpers helper) throws IOException {
+    public void generateData(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper) throws IOException {
         super.generateData(cache, path, gson, helper);
         ProfessionBuilder chef = ProfessionBuilder.profession(
                 TextColor.parseColor("#ede324"),
@@ -191,7 +192,6 @@ public class CroptopiaFarmersModule extends CompoundModule {
                         .reward(helper.expReward(2))
                 );
 
-
-        helper.generate(gson, cache, chef.build(), createNormalPath(path, new ResourceLocation("professions:chef"), false));
+        helper.generate(cache, chef.build(), createNormalPath(path, new ResourceLocation("professions:chef"), false));
     }
 }

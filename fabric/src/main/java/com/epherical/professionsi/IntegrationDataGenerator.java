@@ -6,6 +6,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.minecraft.data.CachedOutput;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.DataProvider;
 import net.minecraft.data.HashCache;
@@ -29,10 +30,10 @@ public class IntegrationDataGenerator implements DataGeneratorEntrypoint, DataPr
     }
 
     @Override
-    public void run(HashCache cache) throws IOException {
+    public void run(CachedOutput cachedOutput) throws IOException {
         Path path = this.dataGenerator.getOutputFolder();
         for (Module module : moduleList) {
-            module.generateData(cache, path, GSON, this);
+            module.generateData(cachedOutput, path, GSON, this);
         }
     }
 

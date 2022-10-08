@@ -27,7 +27,6 @@ import net.minecraft.nbt.NbtOps;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.network.chat.Style;
-import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.GsonHelper;
 import net.minecraft.world.item.Item;
@@ -227,7 +226,7 @@ public class TechRebornMachineAction extends AbstractItemAction {
 
         @Override
         public Component createActionComponent() {
-            return new TranslatableComponent(getType().getTranslationKey());
+            return Component.translatable(getType().getTranslationKey());
         }
 
         @Override

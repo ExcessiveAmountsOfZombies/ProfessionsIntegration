@@ -63,34 +63,34 @@ dependencies {
 
     testCompileOnly('org.jetbrains:annotations:23.0.0')
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-    modImplementation ("com.epherical.professions:fabric:1.0.2-1.18.2")
-    modImplementation("com.epherical.professions:professions:1.0.2-1.18.2")
+    modImplementation ("com.epherical.professions:fabric:1.0.2-1.19.2")
+    modImplementation("com.epherical.professions:professions:1.0.2-1.19.2")
     modImplementation 'me.lucko:fabric-permissions-api:0.2-SNAPSHOT'
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
     // Integrations
     // REI
-    modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:8.3.549"
-    modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:8.3.549"
-    modImplementation "dev.architectury:architectury-fabric:4.9.83"
+    modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:9.1.550"
+    modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:9.1.550"
+    modImplementation "dev.architectury:architectury-fabric:6.2.46"
     // BYG
-    modImplementation "curse.maven:project-391378:3956526"
+    modImplementation "curse.maven:project-391378:3970270"
     // TerraBlender
-    modImplementation "curse.maven:project-565956:3957975"
+    modImplementation "curse.maven:project-565956:3966341"
     runtimeOnly("com.electronwill.night-config:toml:${nightconfig_version}")
     runtimeOnly("com.electronwill.night-config:core:${nightconfig_version}")
     // Croptopia
-    modImplementation "curse.maven:project-415438:3947781"
+    modImplementation "curse.maven:project-415438:3947783"
     // Farmer's Delight [FABRIC]
-    modImplementation "curse.maven:project-482834:3944588"
+    modImplementation "curse.maven:project-482834:3947019"
     // Modern Industrialization
     //modImplementationMapped "curse.maven:project-405388:3866891"
     /*runtimeOnly("teamreborn:energy:2.2.0")
     runtimeOnly("com.github.Technici4n:magna:1.8.1-1.19") {
         transitive = false
     }*/
-    modImplementation "TechReborn:TechReborn-1.18:5.2.0-beta.3"
+    modImplementation "TechReborn:TechReborn-1.19:5.3.4"
 
 }
 
