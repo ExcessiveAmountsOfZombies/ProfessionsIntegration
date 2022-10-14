@@ -4,7 +4,7 @@ import com.epherical.professions.datagen.ProviderHelpers;
 import com.epherical.professionsi.integrations.Module;
 import com.google.gson.Gson;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.data.CachedOutput;
+import net.minecraft.data.HashCache;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -31,13 +31,11 @@ public class ModuleLoader {
         }
     }
 
-    public void generateData(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper) throws IOException {
+    public void generateData(HashCache cache, Path path, Gson gson, ProviderHelpers helper) throws IOException {
         if (isModLoaded()) {
             moduleSupplier.get().generateData(cache, path, gson, helper);
         }
     }
-
-
 
 
 }
