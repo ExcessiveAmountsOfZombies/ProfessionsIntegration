@@ -9,6 +9,7 @@ import com.epherical.professions.profession.editor.Append;
 import com.google.gson.Gson;
 import net.minecraft.data.CachedOutput;
 import net.minecraft.resources.ResourceLocation;
+import potionstudios.byg.BYG;
 import potionstudios.byg.common.block.BYGBlocks;
 import potionstudios.byg.common.item.BYGItems;
 
@@ -17,8 +18,10 @@ import java.nio.file.Path;
 
 public class BygModule extends Module {
 
-    public BygModule() {
-        super("byg");
+    public static final String ID = BYG.MOD_ID;
+
+    public BygModule(String modId) {
+        super(modId);
     }
 
     @Override

@@ -30,12 +30,13 @@
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": ">=1.19.2",
+    "minecraft": ">=1.19",
     "professions": ">=1.0.2"
   },
   "suggests": {
     "byg": "*",
     "croptopia": "*",
-    "farmersdelight": ">=1.18.2-1.2.1"
+    "farmersdelight": ">=1.18.2-1.2.1",
+    "techreborn": "*"
   }
 }

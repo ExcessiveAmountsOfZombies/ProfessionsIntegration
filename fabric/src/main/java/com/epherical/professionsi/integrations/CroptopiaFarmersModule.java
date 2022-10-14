@@ -22,8 +22,8 @@ import java.nio.file.Path;
 
 public class CroptopiaFarmersModule extends CompoundModule {
 
-    public CroptopiaFarmersModule(CroptopiaModule croptopiaModule, FarmersDelightModule farmersDelightModule) {
-        super(croptopiaModule, farmersDelightModule);
+    public CroptopiaFarmersModule() {
+        super();
     }
 
     @Override

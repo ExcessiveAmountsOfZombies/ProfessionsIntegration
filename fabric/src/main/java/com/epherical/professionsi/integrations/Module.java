@@ -24,7 +24,6 @@ public abstract class Module {
 
     public Module(String modID) {
         this.modID = modID;
-
     }
 
     protected ResourceLocation createAppendID(String profession) {
@@ -44,18 +43,16 @@ public abstract class Module {
     }
 
     public void loadDatapacks() {
-        if (isModLoaded()) {
-            if (ProfessionConfig.useBuiltinDatapack) {
-                ResourceManagerHelper.registerBuiltinResourcePack(new ResourceLocation("professionsi", "fabric/normal/" + modID),
+        if (ProfessionConfig.useBuiltinDatapack) {
+            ResourceManagerHelper.registerBuiltinResourcePack(new ResourceLocation("professionsi", "fabric/normal/" + modID),
+                    FabricLoader.getInstance().getModContainer("professionsi").get(), ResourcePackActivationType.DEFAULT_ENABLED);
+            if (ProfessionConfig.useHardcoreDatapack) {
+                ResourceManagerHelper.registerBuiltinResourcePack(new ResourceLocation("professionsi", "fabric/hardcore/" + modID),
                         FabricLoader.getInstance().getModContainer("professionsi").get(), ResourcePackActivationType.DEFAULT_ENABLED);
-                if (ProfessionConfig.useHardcoreDatapack) {
-                    ResourceManagerHelper.registerBuiltinResourcePack(new ResourceLocation("professionsi", "fabric/hardcore/" + modID),
-                            FabricLoader.getInstance().getModContainer("professionsi").get(), ResourcePackActivationType.DEFAULT_ENABLED);
-                }
             }
-            registerProfessionHandlers();
-            BlockEntityComponent.REGISTER_OWNABLE_BE_EVENT.register(this::registerOwnableBlocks);
         }
+        registerProfessionHandlers();
+        BlockEntityComponent.REGISTER_OWNABLE_BE_EVENT.register(this::registerOwnableBlocks);
     }
 
     public void registerOwnableBlocks(BlockComponentFactoryRegistry registry, ComponentKey<PlayerOwning> key) {}

@@ -1,6 +1,7 @@
 package com.epherical.professionsi.integrations;
 
 import com.epherical.croptopia.register.Content;
+import com.epherical.professions.Constants;
 import com.epherical.professions.datagen.ProviderHelpers;
 import com.epherical.professions.profession.action.Actions;
 import com.epherical.professions.profession.action.builtin.items.FishingAction;
