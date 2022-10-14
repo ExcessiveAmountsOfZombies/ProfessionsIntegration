@@ -36,6 +36,7 @@
   "suggests": {
     "byg": "*",
     "croptopia": "*",
-    "farmersdelight": ">=1.18.2-1.2.1"
+    "farmersdelight": ">=1.18.2-1.2.1",
+    "techreborn": "*"
   }
 }

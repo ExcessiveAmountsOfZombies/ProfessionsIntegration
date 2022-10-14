@@ -2,6 +2,7 @@ package com.epherical.professionsi;
 
 import com.epherical.professions.datagen.ProviderHelpers;
 import com.epherical.professionsi.integrations.Module;
+import com.epherical.professionsi.loaders.ModuleLoader;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -31,7 +32,7 @@ public class IntegrationDataGenerator implements DataGeneratorEntrypoint, DataPr
     @Override
     public void run(HashCache cache) throws IOException {
         Path path = this.dataGenerator.getOutputFolder();
-        for (Module module : moduleList) {
+        for (ModuleLoader module : moduleList) {
             module.generateData(cache, path, GSON, this);
         }
     }
