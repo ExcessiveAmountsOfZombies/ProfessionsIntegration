@@ -5,6 +5,7 @@ import com.epherical.professionsi.integrations.BygModule;
 import com.epherical.professionsi.integrations.CommonModule;
 import com.epherical.professionsi.integrations.CroptopiaFarmersModule;
 import com.epherical.professionsi.integrations.CroptopiaModule;
+import com.epherical.professionsi.integrations.MythicMetalsModule;
 import com.epherical.professionsi.integrations.farmerdelight.FarmersDelightModule;
 import com.epherical.professionsi.integrations.techreborn.TechRebornModule;
 import com.epherical.professionsi.loaders.CommonLoader;
@@ -12,6 +13,7 @@ import com.epherical.professionsi.loaders.CompoundLoader;
 import com.epherical.professionsi.loaders.ModuleLoader;
 import com.nhoryzon.mc.farmersdelight.FarmersDelightMod;
 import net.fabricmc.api.ModInitializer;
+import nourl.mythicmetals.MythicMetals;
 import techreborn.TechReborn;
 
 import java.util.ArrayList;
@@ -34,6 +36,7 @@ public class ProfessionsIntegrations implements ModInitializer {
         moduleList.add(farmers);
         moduleList.add(new CompoundLoader(() -> new CroptopiaFarmersModule(), croptopia, farmers));
         moduleList.add(new ModuleLoader(TechReborn.MOD_ID, () -> new TechRebornModule()));
+        moduleList.add(new ModuleLoader(MythicMetals.MOD_ID, () -> new MythicMetalsModule()));
 
 
         for (ModuleLoader module : moduleList) {

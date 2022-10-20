@@ -87,6 +87,12 @@ public class BygModule extends Module {
     public void appendMining(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
         Append.Builder appender = Append.Builder.appender(id);
         appender.addAction(Actions.BREAK_BLOCK, BreakBlockAction.breakBlock()
+                .block(BYGBlocks.DACITE.get(), BYGBlocks.MOSSY_STONE.get(), BYGBlocks.PODZOL_DACITE.get(), BYGBlocks.OVERGROWN_DACITE.get(),
+                        BYGBlocks.OVERGROWN_STONE.get(), BYGBlocks.RED_ROCK.get(), BYGBlocks.ROCKY_STONE.get(), BYGBlocks.TRAVERTINE.get(),
+                        BYGBlocks.SCORIA_STONE.get(), BYGBlocks.SOAPSTONE.get())
+                .reward(helper.moneyReward(0.5))
+                .reward(helper.expReward(1)));
+        appender.addAction(Actions.BREAK_BLOCK, BreakBlockAction.breakBlock()
                 .block(BYGBlocks.AMETRINE_ORE.get(), BYGBlocks.BUDDING_AMETRINE_ORE.get(), BYGBlocks.ANTHRACITE_ORE.get())
                 .reward(helper.moneyReward(2))
                 .reward(helper.expReward(2))
