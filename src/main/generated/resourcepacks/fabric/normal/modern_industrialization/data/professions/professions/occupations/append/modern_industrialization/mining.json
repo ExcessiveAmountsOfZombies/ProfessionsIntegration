@@ -1,0 +1,86 @@
+{
+  "actions": [
+    {
+      "action": "professions:break_block",
+      "blocks": [
+        "#c:antimony_ores",
+        "#c:bauxite_ores",
+        "#c:lead_ores",
+        "#c:nickel_ores",
+        "#c:salt_ores",
+        "#c:tin_ores"
+      ],
+      "conditions": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "blocks": [
+        "#c:lignite_coal_ores"
+      ],
+      "conditions": [],
+      "rewards": [
+        {
+          "amount": 0.5,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 1.5,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "blocks": [
+        "#c:iridium_ores"
+      ],
+      "conditions": [],
+      "rewards": [
+        {
+          "amount": 10.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 23.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "blocks": [
+        "#c:mozanite_ores",
+        "#c:uranium_ores",
+        "#c:tungsten_ores"
+      ],
+      "conditions": [],
+      "rewards": [
+        {
+          "amount": 3.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    }
+  ],
+  "function_type": "professions:append",
+  "to_edit_profession_key": "professions:mining",
+  "unlocks": []
+}
