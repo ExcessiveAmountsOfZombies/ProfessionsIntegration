@@ -95,14 +95,15 @@ dependencies {
     // Tech Reborn
     modImplementation "TechReborn:TechReborn-1.18:5.2.0-beta.3"
     // Mythic Metals
-    modImplementation "curse.maven:project-410127:4019516"
-    modImplementation "curse.maven:project-438718:3942534"
-    modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:5.0.1"
-    modImplementation "io.wispforest:owo-lib:0.8.5+1.19"
+    modImplementation "curse.maven:project-410127:3937468"
+    // Alloy Forgery
+    modImplementation "curse.maven:project-438718:3758381"
+    modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:4.2.0"
+    modImplementation "io.wispforest:owo-lib:0.7.2-no-cme+1.18"
     // Modern Industrialization
-    modImplementation "curse.maven:project-405388:3923510"
-    modImplementation("com.github.Technici4n:magna:1.8.1-1.19")
-    modImplementation("io.github.ladysnake:PlayerAbilityLib:1.6.0") {
+    modImplementation "curse.maven:project-405388:3866891"
+    modImplementation("com.github.Technici4n:magna:1.7.0-1.18")
+    modImplementation("io.github.ladysnake:PlayerAbilityLib:1.5.0") {
         exclude(group: "net.fabricmc.fabric-api")
     }
 

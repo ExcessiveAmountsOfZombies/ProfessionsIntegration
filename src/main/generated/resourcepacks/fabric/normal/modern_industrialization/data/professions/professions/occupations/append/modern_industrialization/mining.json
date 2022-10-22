@@ -8,82 +8,77 @@
       "rewards": [
         {
           "reward": "professions:payment",
-          "amount": 0.5,
-          "currency": "eights_economy:dollars"
-        },
-        {
-          "reward": "professions:occupation_exp",
-          "amount": 1.0
-        }
-      ],
-      "blocks": [
-        "byg:dacite",
-        "byg:mossy_stone",
-        "byg:podzol_dacite",
-        "byg:overgrown_dacite",
-        "byg:overgrown_stone",
-        "byg:red_rock",
-        "byg:rocky_stone",
-        "byg:travertine",
-        "byg:scoria_stone",
-        "byg:soapstone"
-      ]
-    },
-    {
-      "action": "professions:break_block",
-      "conditions": [],
-      "rewards": [
-        {
-          "reward": "professions:payment",
           "amount": 2.0,
           "currency": "eights_economy:dollars"
         },
         {
           "reward": "professions:occupation_exp",
-          "amount": 2.0
-        }
-      ],
-      "blocks": [
-        "byg:ametrine_ore",
-        "byg:budding_ametrine_ore",
-        "byg:anthracite_ore"
-      ]
-    },
-    {
-      "action": "professions:break_block",
-      "conditions": [],
-      "rewards": [
-        {
-          "reward": "professions:payment",
-          "amount": 7.0,
-          "currency": "eights_economy:dollars"
-        },
-        {
-          "reward": "professions:occupation_exp",
-          "amount": 7.0
-        }
-      ],
-      "blocks": [
-        "byg:pendorite_ore"
-      ]
-    },
-    {
-      "action": "professions:break_block",
-      "conditions": [],
-      "rewards": [
-        {
-          "reward": "professions:occupation_exp",
           "amount": 4.0
-        },
-        {
-          "reward": "professions:payment",
-          "amount": 4.0,
-          "currency": "eights_economy:dollars"
         }
       ],
       "blocks": [
-        "byg:emeraldite_ore",
-        "byg:cryptic_redstone_ore"
+        "#c:antimony_ores",
+        "#c:bauxite_ores",
+        "#c:lead_ores",
+        "#c:nickel_ores",
+        "#c:salt_ores",
+        "#c:tin_ores"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 0.5,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 1.5
+        }
+      ],
+      "blocks": [
+        "#c:lignite_coal_ores"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 10.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 23.0
+        }
+      ],
+      "blocks": [
+        "#c:iridium_ores"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 3.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 8.0
+        }
+      ],
+      "blocks": [
+        "#c:mozanite_ores",
+        "#c:uranium_ores",
+        "#c:tungsten_ores"
       ]
     }
   ],

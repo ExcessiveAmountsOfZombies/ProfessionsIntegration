@@ -14,7 +14,7 @@ import com.epherical.professions.profession.action.builtin.items.CraftingAction;
 import com.epherical.professions.profession.editor.Append;
 import com.google.gson.Gson;
 import net.minecraft.core.Registry;
-import net.minecraft.data.CachedOutput;
+import net.minecraft.data.HashCache;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
@@ -30,17 +30,17 @@ public class ModernIndustrializationModule extends Module {
     }
 
     @Override
-    public void appendAlchemist(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendAlchemist(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendBuilder(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendBuilder(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendCrafting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendCrafting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
         Append.Builder appender = Append.Builder.appender(id);
         appender.addAction(Actions.CRAFTS_ITEM, CraftingAction.craft()
                 .item(MIItem.CIRCUIT_BOARD.asItem(), MIItem.INVAR_ROTARY_BLADE.asItem(),
@@ -107,31 +107,31 @@ public class ModernIndustrializationModule extends Module {
                 .item(MIBlock.ADVANCED_MACHINE_HULL.asItem())
                 .reward(helper.moneyReward(1))
                 .reward(helper.expReward(5)));
-        helper.generate(cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
+        helper.generate(gson, cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
     }
 
     @Override
-    public void appendEnchanting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
-
-    }
-
-    @Override
-    public void appendFarming(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendEnchanting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendFishing(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendFarming(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendHunting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendFishing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendMining(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendHunting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+
+    }
+
+    @Override
+    public void appendMining(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
         Append.Builder appender = Append.Builder.appender(id);
         appender.addAction(Actions.BREAK_BLOCK, BreakBlockAction.breakBlock()
                 .block(getOreTag(MIMaterials.ANTIMONY))
@@ -156,21 +156,21 @@ public class ModernIndustrializationModule extends Module {
                 .block(getOreTag(MIMaterials.TUNGSTEN))
                 .reward(helper.moneyReward(3))
                 .reward(helper.expReward(8)));
-        helper.generate(cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
+        helper.generate(gson, cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
     }
 
     @Override
-    public void appendTrading(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
-
-    }
-
-    @Override
-    public void appendSmithing(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendTrading(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendLogging(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendSmithing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+
+    }
+
+    @Override
+    public void appendLogging(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 

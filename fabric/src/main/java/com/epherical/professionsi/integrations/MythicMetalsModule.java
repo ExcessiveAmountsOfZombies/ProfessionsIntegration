@@ -10,7 +10,7 @@ import com.google.gson.Gson;
 import net.minecraft.advancements.critereon.EnchantmentPredicate;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.advancements.critereon.MinMaxBounds;
-import net.minecraft.data.CachedOutput;
+import net.minecraft.data.HashCache;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantments;
@@ -30,42 +30,42 @@ public class MythicMetalsModule extends Module {
     }
 
     @Override
-    public void appendAlchemist(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendAlchemist(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendBuilder(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendBuilder(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendCrafting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendCrafting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendEnchanting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendEnchanting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendFarming(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendFarming(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendFishing(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendFishing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
 
     }
 
     @Override
-    public void appendHunting(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendHunting(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendMining(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendMining(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
         Append.Builder appender = Append.Builder.appender(id);
         appender.addAction(Actions.BREAK_BLOCK, BreakBlockAction.breakBlock()
                 .block(ADAMANTITE.oreBlock())
@@ -103,16 +103,16 @@ public class MythicMetalsModule extends Module {
                 .reward(helper.expReward(4))
                 .condition(ToolMatcher.toolMatcher(ItemPredicate.Builder.item()
                         .hasEnchantment(new EnchantmentPredicate(Enchantments.SILK_TOUCH, MinMaxBounds.Ints.ANY))).invert()));
-        helper.generate(cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
+        helper.generate(gson, cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
     }
 
     @Override
-    public void appendTrading(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendTrading(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 
     @Override
-    public void appendSmithing(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
+    public void appendSmithing(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) throws IOException {
         Append.Builder appender = Append.Builder.appender(id);
 
         addSmithingCraftingData(appender, 3, 10, 6, helper, MythicTools.ADAMANTITE.getAxe(), MythicTools.ADAMANTITE.getPickaxe());
@@ -162,11 +162,11 @@ public class MythicMetalsModule extends Module {
         addSmithingCraftingData(appender, 3, 6, 3, helper, MythicTools.RUNITE.getAxe(), MythicTools.RUNITE.getPickaxe());
         addSmithingCraftingData(appender, 2, 6, 3, helper, MythicTools.RUNITE.getHoe(), MythicTools.RUNITE.getSword());
         addSmithingCraftingData(appender, 1, 6, 3, helper, MythicTools.RUNITE.getShovel());
-        helper.generate(cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
+        helper.generate(gson, cache, appender.build(), createNormalPath(path, createAppendID(id.getPath()), false));
     }
 
     @Override
-    public void appendLogging(CachedOutput cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
+    public void appendLogging(HashCache cache, Path path, Gson gson, ProviderHelpers helper, ResourceLocation id) {
 
     }
 

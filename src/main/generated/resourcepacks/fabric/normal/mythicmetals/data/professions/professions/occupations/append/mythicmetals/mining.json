@@ -1,16 +1,9 @@
 {
+  "function_type": "professions:append",
+  "to_edit_profession_key": "professions:mining",
   "actions": [
     {
       "action": "professions:break_block",
-      "blocks": [
-        "#mythicmetals:adamantite_ores",
-        "#mythicmetals:banglum_ores",
-        "#mythicmetals:carmot_ores",
-        "#mythicmetals:kyber_ores",
-        "#mythicmetals:orichalcum_ores",
-        "#mythicmetals:palladium_ores",
-        "#mythicmetals:unobtainium_ores"
-      ],
       "conditions": [
         {
           "condition": "professions:inverted",
@@ -28,18 +21,53 @@
       ],
       "rewards": [
         {
+          "reward": "professions:payment",
           "amount": 10.0,
-          "currency": "eights_economy:dollars",
-          "reward": "professions:payment"
+          "currency": "eights_economy:dollars"
         },
         {
-          "amount": 15.0,
-          "reward": "professions:occupation_exp"
+          "reward": "professions:occupation_exp",
+          "amount": 15.0
         }
+      ],
+      "blocks": [
+        "#mythicmetals:adamantite_ores",
+        "#mythicmetals:banglum_ores",
+        "#mythicmetals:carmot_ores",
+        "#mythicmetals:kyber_ores",
+        "#mythicmetals:orichalcum_ores",
+        "#mythicmetals:palladium_ores",
+        "#mythicmetals:unobtainium_ores"
       ]
     },
     {
       "action": "professions:break_block",
+      "conditions": [
+        {
+          "condition": "professions:inverted",
+          "term": {
+            "condition": "professions:tool_matches",
+            "predicate": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "reward": "professions:payment",
+          "amount": 4.0,
+          "currency": "eights_economy:dollars"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 8.0
+        }
+      ],
       "blocks": [
         "#mythicmetals:aquarium_ores",
         "#mythicmetals:manganese_ores",
@@ -54,39 +82,10 @@
         "#mythicmetals:silver_ores",
         "#mythicmetals:starrite_ores",
         "#mythicmetals:stormyx_ores"
-      ],
-      "conditions": [
-        {
-          "condition": "professions:inverted",
-          "term": {
-            "condition": "professions:tool_matches",
-            "predicate": {
-              "enchantments": [
-                {
-                  "enchantment": "minecraft:silk_touch"
-                }
-              ]
-            }
-          }
-        }
-      ],
-      "rewards": [
-        {
-          "amount": 4.0,
-          "currency": "eights_economy:dollars",
-          "reward": "professions:payment"
-        },
-        {
-          "amount": 8.0,
-          "reward": "professions:occupation_exp"
-        }
       ]
     },
     {
       "action": "professions:break_block",
-      "blocks": [
-        "#mythicmetals:tin_ores"
-      ],
       "conditions": [
         {
           "condition": "professions:inverted",
@@ -104,18 +103,19 @@
       ],
       "rewards": [
         {
+          "reward": "professions:payment",
           "amount": 4.0,
-          "currency": "eights_economy:dollars",
-          "reward": "professions:payment"
+          "currency": "eights_economy:dollars"
         },
         {
-          "amount": 4.0,
-          "reward": "professions:occupation_exp"
+          "reward": "professions:occupation_exp",
+          "amount": 4.0
         }
+      ],
+      "blocks": [
+        "#mythicmetals:tin_ores"
       ]
     }
   ],
-  "function_type": "professions:append",
-  "to_edit_profession_key": "professions:mining",
   "unlocks": []
 }
