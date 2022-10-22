@@ -1,7 +1,6 @@
 package com.epherical.professionsi.integrations;
 
 import com.epherical.professions.datagen.ProviderHelpers;
-import com.epherical.professions.profession.action.ActionType;
 import com.epherical.professions.profession.action.Actions;
 import com.epherical.professions.profession.action.builtin.blocks.BreakBlockAction;
 import com.epherical.professions.profession.action.builtin.items.CraftingAction;
@@ -16,7 +15,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantments;
 import nourl.mythicmetals.MythicMetals;
-import nourl.mythicmetals.item.MythicItems;
 import nourl.mythicmetals.tools.MythicTools;
 
 import java.io.IOException;

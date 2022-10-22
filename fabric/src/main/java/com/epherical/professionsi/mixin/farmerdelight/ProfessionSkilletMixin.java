@@ -30,9 +30,12 @@ public class ProfessionSkilletMixin {
     public void professions$handleItemCooked(ItemStack cookingStack, CallbackInfo ci, SimpleContainer wrapper, Optional<CampfireCookingRecipe> recipe, ItemStack resultStack) {
 
         SkilletBlockEntity entity = (SkilletBlockEntity) (Object) this;
-        PlayerOwning component = entity.getComponent(BlockEntityComponent.PLAYER_OWNABLE);
-        if (component.hasOwner()) {
-            DelightEvent.SKILLET_COOK_EVENT.invoker().onSkilletCook(component.getPlacedBy(), resultStack, recipe.get(), entity);
-        }
+        try {
+            PlayerOwning component = entity.getComponent(BlockEntityComponent.PLAYER_OWNABLE);
+            if (component.hasOwner()) {
+                DelightEvent.SKILLET_COOK_EVENT.invoker().onSkilletCook(component.getPlacedBy(), resultStack, recipe.get(), entity);
+            }
+        } catch (Exception ignored) {}
+
     }
 }

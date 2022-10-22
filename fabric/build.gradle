@@ -45,6 +45,9 @@ repositories {
             includeGroup "com.jamieswhiteshirt"
         }
     }
+    repositories {
+        maven { url 'https://maven.wispforest.io' }
+    }
 }
 
 configurations {
@@ -87,10 +90,21 @@ dependencies {
     // Modern Industrialization
     //modImplementationMapped "curse.maven:project-405388:3866891"
     /*runtimeOnly("teamreborn:energy:2.2.0")
-    runtimeOnly("com.github.Technici4n:magna:1.8.1-1.19") {
-        transitive = false
+
     }*/
+    // Tech Reborn
     modImplementation "TechReborn:TechReborn-1.19:5.3.4"
+    // Mythic Metals
+    modImplementation "curse.maven:project-410127:4019516"
+    modImplementation "curse.maven:project-438718:3942534"
+    modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:5.0.1"
+    modImplementation "io.wispforest:owo-lib:0.8.5+1.19"
+    // Modern Industrialization
+    modImplementation "curse.maven:project-405388:3923510"
+    modImplementation("com.github.Technici4n:magna:1.8.1-1.19")
+    modImplementation("io.github.ladysnake:PlayerAbilityLib:1.6.0") {
+        exclude(group: "net.fabricmc.fabric-api")
+    }
 
 }
 

@@ -1,0 +1,121 @@
+{
+  "actions": [
+    {
+      "action": "professions:break_block",
+      "blocks": [
+        "#mythicmetals:adamantite_ores",
+        "#mythicmetals:banglum_ores",
+        "#mythicmetals:carmot_ores",
+        "#mythicmetals:kyber_ores",
+        "#mythicmetals:orichalcum_ores",
+        "#mythicmetals:palladium_ores",
+        "#mythicmetals:unobtainium_ores"
+      ],
+      "conditions": [
+        {
+          "condition": "professions:inverted",
+          "term": {
+            "condition": "professions:tool_matches",
+            "predicate": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 10.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 15.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "blocks": [
+        "#mythicmetals:aquarium_ores",
+        "#mythicmetals:manganese_ores",
+        "#mythicmetals:morkite_ores",
+        "#mythicmetals:midas_gold_ores",
+        "#mythicmetals:mythril_ores",
+        "#mythicmetals:osmium_ores",
+        "#mythicmetals:platinum_ores",
+        "#mythicmetals:prometheum_ores",
+        "#mythicmetals:quadrillum_ores",
+        "#mythicmetals:runite_ores",
+        "#mythicmetals:silver_ores",
+        "#mythicmetals:starrite_ores",
+        "#mythicmetals:stormyx_ores"
+      ],
+      "conditions": [
+        {
+          "condition": "professions:inverted",
+          "term": {
+            "condition": "professions:tool_matches",
+            "predicate": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "blocks": [
+        "#mythicmetals:tin_ores"
+      ],
+      "conditions": [
+        {
+          "condition": "professions:inverted",
+          "term": {
+            "condition": "professions:tool_matches",
+            "predicate": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    }
+  ],
+  "function_type": "professions:append",
+  "to_edit_profession_key": "professions:mining",
+  "unlocks": []
+}

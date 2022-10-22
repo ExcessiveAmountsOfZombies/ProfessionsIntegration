@@ -1,10 +1,12 @@
 package com.epherical.professionsi;
 
+import aztech.modern_industrialization.ModernIndustrialization;
 import com.epherical.professions.FabricRegConstants;
 import com.epherical.professionsi.integrations.BygModule;
 import com.epherical.professionsi.integrations.CommonModule;
 import com.epherical.professionsi.integrations.CroptopiaFarmersModule;
 import com.epherical.professionsi.integrations.CroptopiaModule;
+import com.epherical.professionsi.integrations.ModernIndustrializationModule;
 import com.epherical.professionsi.integrations.MythicMetalsModule;
 import com.epherical.professionsi.integrations.farmerdelight.FarmersDelightModule;
 import com.epherical.professionsi.integrations.techreborn.TechRebornModule;
@@ -37,6 +39,7 @@ public class ProfessionsIntegrations implements ModInitializer {
         moduleList.add(new CompoundLoader(() -> new CroptopiaFarmersModule(), croptopia, farmers));
         moduleList.add(new ModuleLoader(TechReborn.MOD_ID, () -> new TechRebornModule()));
         moduleList.add(new ModuleLoader(MythicMetals.MOD_ID, () -> new MythicMetalsModule()));
+        moduleList.add(new ModuleLoader(ModernIndustrialization.MOD_ID, () -> new ModernIndustrializationModule()));
 
 
         for (ModuleLoader module : moduleList) {

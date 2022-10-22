@@ -1,0 +1,679 @@
+{
+  "actions": [
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:adamantite_axe",
+        "mythicmetals:adamantite_pickaxe"
+      ],
+      "rewards": [
+        {
+          "amount": 18.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 30.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:adamantite_hoe",
+        "mythicmetals:adamantite_sword"
+      ],
+      "rewards": [
+        {
+          "amount": 12.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 20.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:adamantite_shovel"
+      ],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 10.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:banglum_axe",
+        "mythicmetals:banglum_pickaxe"
+      ],
+      "rewards": [
+        {
+          "amount": 18.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 30.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:banglum_hoe",
+        "mythicmetals:banglum_sword"
+      ],
+      "rewards": [
+        {
+          "amount": 12.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 20.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:banglum_shovel"
+      ],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 10.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:carmot_axe",
+        "mythicmetals:carmot_pickaxe"
+      ],
+      "rewards": [
+        {
+          "amount": 18.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 30.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:carmot_hoe",
+        "mythicmetals:carmot_sword"
+      ],
+      "rewards": [
+        {
+          "amount": 12.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 20.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:carmot_shovel"
+      ],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 10.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:kyber_axe",
+        "mythicmetals:kyber_pickaxe"
+      ],
+      "rewards": [
+        {
+          "amount": 18.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 30.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:kyber_hoe",
+        "mythicmetals:kyber_sword"
+      ],
+      "rewards": [
+        {
+          "amount": 12.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 20.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:kyber_shovel"
+      ],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 10.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:orichalcum_axe",
+        "mythicmetals:orichalcum_pickaxe"
+      ],
+      "rewards": [
+        {
+          "amount": 18.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 30.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:orichalcum_hoe",
+        "mythicmetals:orichalcum_sword"
+      ],
+      "rewards": [
+        {
+          "amount": 12.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 20.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:orichalcum_shovel"
+      ],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 10.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:palladium_axe",
+        "mythicmetals:palladium_pickaxe"
+      ],
+      "rewards": [
+        {
+          "amount": 18.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 30.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:palladium_hoe",
+        "mythicmetals:palladium_sword"
+      ],
+      "rewards": [
+        {
+          "amount": 12.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 20.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:palladium_shovel"
+      ],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 10.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:aquarium_axe",
+        "mythicmetals:aquarium_pickaxe"
+      ],
+      "rewards": [
+        {
+          "amount": 9.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 18.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:aquarium_hoe",
+        "mythicmetals:aquarium_sword"
+      ],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 12.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:aquarium_shovel"
+      ],
+      "rewards": [
+        {
+          "amount": 3.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:mythril_axe",
+        "mythicmetals:mythril_pickaxe"
+      ],
+      "rewards": [
+        {
+          "amount": 9.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 18.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:mythril_hoe",
+        "mythicmetals:mythril_sword"
+      ],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 12.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:mythril_shovel"
+      ],
+      "rewards": [
+        {
+          "amount": 3.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:osmium_axe",
+        "mythicmetals:osmium_pickaxe"
+      ],
+      "rewards": [
+        {
+          "amount": 9.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 18.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:osmium_hoe",
+        "mythicmetals:osmium_sword"
+      ],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 12.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:osmium_shovel"
+      ],
+      "rewards": [
+        {
+          "amount": 3.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:prometheum_axe",
+        "mythicmetals:prometheum_pickaxe"
+      ],
+      "rewards": [
+        {
+          "amount": 9.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 18.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:prometheum_hoe",
+        "mythicmetals:prometheum_sword"
+      ],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 12.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:prometheum_shovel"
+      ],
+      "rewards": [
+        {
+          "amount": 3.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:quadrillum_axe",
+        "mythicmetals:quadrillum_pickaxe"
+      ],
+      "rewards": [
+        {
+          "amount": 9.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 18.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:quadrillum_hoe",
+        "mythicmetals:quadrillum_sword"
+      ],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 12.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:quadrillum_shovel"
+      ],
+      "rewards": [
+        {
+          "amount": 3.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:runite_axe",
+        "mythicmetals:runite_pickaxe"
+      ],
+      "rewards": [
+        {
+          "amount": 9.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 18.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:runite_hoe",
+        "mythicmetals:runite_sword"
+      ],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 12.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "items": [
+        "mythicmetals:runite_shovel"
+      ],
+      "rewards": [
+        {
+          "amount": 3.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    }
+  ],
+  "function_type": "professions:append",
+  "to_edit_profession_key": "professions:smithing",
+  "unlocks": []
+}

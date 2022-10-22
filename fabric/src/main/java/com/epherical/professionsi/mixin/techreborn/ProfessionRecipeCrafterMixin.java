@@ -37,10 +37,12 @@ public class ProfessionRecipeCrafterMixin {
             at = @At(value = "INVOKE", target = "Lreborncore/common/crafting/RebornRecipe;getOutputs()Ljava/util/List;"))
     public void professions$takeCraft(CallbackInfo ci) {
         if (this.blockEntity instanceof GenericMachineBlockEntity) {
-            PlayerOwning component = this.blockEntity.getComponent(BlockEntityComponent.PLAYER_OWNABLE);
-            if (component.hasOwner()) {
-                TechRebornEvent.REBORN_MACHINE_FINISH_EVENT.invoker().onFinish(component.getPlacedBy(), this.currentRecipe.getOutputs(), this.blockEntity, this.recipeType, this.currentRecipe);
-            }
+            try {
+                PlayerOwning component = this.blockEntity.getComponent(BlockEntityComponent.PLAYER_OWNABLE);
+                if (component.hasOwner()) {
+                    TechRebornEvent.REBORN_MACHINE_FINISH_EVENT.invoker().onFinish(component.getPlacedBy(), this.currentRecipe.getOutputs(), this.blockEntity, this.recipeType, this.currentRecipe);
+                }
+            } catch (Exception ignored) {}
         }
     }
 
