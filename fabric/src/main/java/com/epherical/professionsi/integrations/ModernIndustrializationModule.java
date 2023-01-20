@@ -6,7 +6,7 @@ import aztech.modern_industrialization.ModernIndustrialization;
 import aztech.modern_industrialization.materials.MIMaterials;
 import aztech.modern_industrialization.materials.Material;
 import aztech.modern_industrialization.materials.part.MIParts;
-import aztech.modern_industrialization.materials.part.Part;
+import aztech.modern_industrialization.materials.part.PartKeyProvider;
 import com.epherical.professions.datagen.ProviderHelpers;
 import com.epherical.professions.profession.action.Actions;
 import com.epherical.professions.profession.action.builtin.blocks.BreakBlockAction;
@@ -64,7 +64,7 @@ public class ModernIndustrializationModule extends Module {
         appender.addAction(Actions.CRAFTS_ITEM, CraftingAction.craft()
                 .item(MIItem.ADVANCED_MOTOR.asItem(), MIItem.LARGE_ADVANCED_MOTOR.asItem(),
                         MIItem.ADVANCED_PUMP.asItem(), MIItem.LARGE_ADVANCED_PUMP.asItem(),
-                        MIItem.CIRCUIT.asItem(), MIItem.ELECTRONIC_CIRCUIT_BOARD.asItem(),
+                        MIItem.CIRCUIT_BOARD.asItem(), MIItem.ELECTRONIC_CIRCUIT_BOARD.asItem(),
                         MIItem.ELECTRONIC_CIRCUIT.asItem(), MIItem.PROCESSING_UNIT.asItem(),
                         MIItem.DIGITAL_CIRCUIT.asItem(), MIItem.QUANTUM_CIRCUIT.asItem(),
                         MIItem.STEAM_MINING_DRILL.asItem(), MIItem.DIESEL_MINING_DRILL.asItem(),
@@ -179,7 +179,7 @@ public class ModernIndustrializationModule extends Module {
         return TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(taggedItemId.replace("#", "")));
     }
 
-    private Item getFromPart(Material material, Part part) {
+    private Item getFromPart(Material material, PartKeyProvider part) {
         return material.getPart(part).asItem();
     }
 }

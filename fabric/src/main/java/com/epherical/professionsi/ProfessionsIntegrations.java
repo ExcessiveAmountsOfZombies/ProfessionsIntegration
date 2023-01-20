@@ -1,7 +1,7 @@
 package com.epherical.professionsi;
 
 import aztech.modern_industrialization.ModernIndustrialization;
-import com.epherical.professions.FabricRegConstants;
+import com.epherical.professions.RegistryConstants;
 import com.epherical.professionsi.integrations.BygModule;
 import com.epherical.professionsi.integrations.CommonModule;
 import com.epherical.professionsi.integrations.CroptopiaFarmersModule;
@@ -28,7 +28,7 @@ public class ProfessionsIntegrations implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        FabricRegConstants.init(); // ...
+        RegistryConstants.init(); // ...
         moduleList.add(new ModuleLoader(BygModule.ID, () -> new BygModule(BygModule.ID)));
         moduleList.add(new CommonLoader("c", CommonModule::new));
 

@@ -1,6 +1,6 @@
 package com.epherical.professionsi.integrations.techreborn;
 
-import com.epherical.professions.CommonPlatform;
+import com.epherical.professions.ProfessionPlatform;
 import com.epherical.professions.config.ProfessionConfig;
 import com.epherical.professions.profession.Profession;
 import com.epherical.professions.profession.ProfessionContext;
@@ -124,7 +124,7 @@ public class TechRebornMachineAction extends AbstractItemAction {
         Map<RewardType, Component> map = this.getRewardInformation();
 
         for (ItemStack item : this.getRealItemStacks()) {
-            components.add(((MutableComponent) item.getHoverName()).setStyle(Style.EMPTY.withColor(ProfessionConfig.descriptors)).append(CommonPlatform.platform.displayInformation(this, map)));
+            components.add(((MutableComponent) item.getHoverName()).setStyle(Style.EMPTY.withColor(ProfessionConfig.descriptors)).append(ProfessionPlatform.platform.displayInformation(this, map)));
         }
 
         return components;
